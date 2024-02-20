@@ -58,7 +58,6 @@ public class Module : MonoBehaviour
         
     }
     public void SetColor(Color color){
-        Debug.Log("Tried to change collor");
         myRenderer.material.color = color;
     }
 }

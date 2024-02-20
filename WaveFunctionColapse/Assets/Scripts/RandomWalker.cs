@@ -84,11 +84,11 @@ public class RandomWalker :MonoBehaviour
     {
         for(int i =0; i<gizmoGrid.Count;i++){
             GameObject slot = gizmoGrid[(int)end.x][(int)end.y];
-            slot.GetComponent<Module>().SetColor(Color.yellow);
+            slot.GetComponent<Module>().SetColor(Color.blue);
         }
         for(int step=0;step<waypoints.Count;step++){
             GameObject slot = gizmoGrid[(int)waypoints[step].x][(int)waypoints[step].y];
-            slot.GetComponent<Module>().SetColor(Color.yellow);
+            slot.GetComponent<Module>().SetColor(Color.blue);
         }
     }
 
