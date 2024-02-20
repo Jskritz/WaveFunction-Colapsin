@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3480474633035623423}
   - component: {fileID: 2028773896964919335}
   - component: {fileID: 1959159944287978076}
-  - component: {fileID: 8668234293212584687}
+  - component: {fileID: 5802812250819371249}
   m_Layer: 0
   m_Name: Module
   m_TagString: Untagged
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8668234293212584687
+--- !u!114 &5802812250819371249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,31 +93,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 45995804838647967}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e7ef63af32acd46b9824a2c919418d, type: 3}
+  m_Script: {fileID: 11500000, guid: 11f1c75816ebc054d8bfed640cc8e865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0
-  Left:
-    walkable: 0
-    connector: 0
-    validNeighbours: []
-    symmetric: 0
-    flipped: 0
-  Right:
-    walkable: 0
-    connector: 0
-    validNeighbours: []
-    symmetric: 0
-    flipped: 0
-  Forward:
-    walkable: 0
-    connector: 0
-    validNeighbours: []
-    symmetric: 0
-    flipped: 0
-  Back:
-    walkable: 0
-    connector: 0
-    validNeighbours: []
-    symmetric: 0
-    flipped: 0
