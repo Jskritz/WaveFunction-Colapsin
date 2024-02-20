@@ -7,7 +7,8 @@ using UnityEngine;
 public class Collapser : MonoBehaviour
 {
     public GameObject module;
-    private List<List<GameObject>> _modules = new List<List<GameObject>>();
+    //[HideInInspector]
+    public List<List<GameObject>> modules = new List<List<GameObject>>();
     
     // Start is called before the first frame update
     void Start()
@@ -20,11 +21,15 @@ public class Collapser : MonoBehaviour
     {
         
     }
+
+    public List<List<GameObject>> getGrid(){
+        return modules;
+    }
     
     // Initialise the wave populating each cell with an empty module
     public void BuildEmptyWave()
     {
-        if (_modules.Count != 0) ClearWave();
+        if (modules.Count != 0) ClearWave();
         var settings = GetComponent<WaveSettings>();
         var pos = transform.position;
         for (int x = 0; x < settings.x; x++)
@@ -40,13 +45,13 @@ public class Collapser : MonoBehaviour
                 newModule.transform.parent = this.transform;
                 row.Add(newModule);
             }
-            _modules.Add(row);
+            modules.Add(row);
         }
     }
 
     private void ClearWave()
     {
-        foreach (var row in _modules)
+        foreach (var row in modules)
         {
             foreach (var oldModule in row)
             {
@@ -58,7 +63,7 @@ public class Collapser : MonoBehaviour
                 
             }
 
-            _modules = new List<List<GameObject>>();
+            modules = new List<List<GameObject>>();
         }
     }
 

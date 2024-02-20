@@ -38,7 +38,7 @@ public class RandomWalker :MonoBehaviour
         bool walkEnded = false;
         bool gotEnd = false;
         bool gotWaypoints = false;
-        int count =0;
+        //int count =0;
         while(walkEnded == false){
             Vector2 nextStep;
             List<Vector2> possibleSteps = ComputePossibleSteps(currentPos,gridSize);
@@ -85,25 +85,29 @@ public class RandomWalker :MonoBehaviour
         int slotIndex = -1;
         GameObject slot = new GameObject();
         for(int i =0; i<gizmoGrid.Count;i++){
-            slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == end.x & e.transform.position.z == end.y);
-            //Debug.Log("Current slot is: "+slotIndex);
-            if(slotIndex >-1){
-                slot = gizmoGrid[i][slotIndex];
-                slot.GetComponent<CubeGizmo>().SetColor(Color.yellow);
-            }
+            slot = gizmoGrid[(int)end.x][(int)end.y];
+            slot.GetComponent<Module>().SetColor(Color.yellow);
+            // slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == end.x & e.transform.position.z == end.y);
+            // //Debug.Log("Current slot is: "+slotIndex);
+            // if(slotIndex >-1){
+            //     slot = gizmoGrid[end.x][end.y];
+            //     slot.GetComponent<Module>().SetColor(Color.yellow);
+            // }
         }
         for(int step=0;step<waypoints.Count;step++){
             //Debug.Log("starting step n "+step);
-            slotIndex = -1;
-            slot = new GameObject();
-            for(int i =0; i<gizmoGrid.Count;i++){
-                slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == waypoints[step].x & e.transform.position.z == waypoints[step].y);
-                //Debug.Log("Current slot is: "+slotIndex);
-                if(slotIndex >-1){
-                    slot = gizmoGrid[i][slotIndex];
-                    slot.GetComponent<CubeGizmo>().SetColor(Color.yellow);
-                }
-            }
+            slot = gizmoGrid[(int)waypoints[step].x][(int)waypoints[step].y];
+            slot.GetComponent<Module>().SetColor(Color.yellow);
+        //     slotIndex = -1;
+        //     slot = new GameObject();
+        //     for(int i =0; i<gizmoGrid.Count;i++){
+        //         slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == waypoints[step].x & e.transform.position.z == waypoints[step].y);
+        //         //Debug.Log("Current slot is: "+slotIndex);
+        //         if(slotIndex >-1){
+        //             slot = gizmoGrid[i][slotIndex];
+        //             slot.GetComponent<Module>().SetColor(Color.yellow);
+        //         }
+        //     }
         }
     }
 
@@ -123,19 +127,23 @@ public class RandomWalker :MonoBehaviour
 
     IEnumerator DoTheWalk(){
         for(int step=0;step<walked.Count;step++){
-            //Debug.Log("starting step n "+step);
+            Debug.Log("starting step n "+step);
             int slotIndex = -1;
-            GameObject slot = new GameObject();
-            for(int i =0; i<gizmoGrid.Count;i++){
-                slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == walked[step].x & e.transform.position.z == walked[step].y);
-                //Debug.Log("Current slot is: "+slotIndex);
-                if(slotIndex >-1){
-                    slot = gizmoGrid[i][slotIndex];
-                    slot.GetComponent<CubeGizmo>().SetColor(Color.red);
-                }
-            }
+            //GameObject slot = new GameObject();
+            Debug.Log("steping on coordinates : "+(int)walked[step].x+","+(int)walked[step].y);
+            GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
+            Debug.Log("Found this slot: ",slot);
+            slot.GetComponent<Module>().SetColor(Color.red);
+            // for(int i =0; i<gizmoGrid.Count;i++){
+            //     slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == walked[step].x & e.transform.position.z == walked[step].y);
+            //     Debug.Log("Current slot is: "+i+","+slotIndex);
+            //     if(slotIndex >-1){
+            //         slot = gizmoGrid[i][slotIndex];
+            //         slot.GetComponent<Module>().SetColor(Color.red);
+            //     }
+            // }
             yield return new WaitForSeconds(0.2f);
-            slot.GetComponent<CubeGizmo>().SetColor(Color.green);
+            slot.GetComponent<Module>().SetColor(Color.green);
         }
         
     }
@@ -213,7 +221,7 @@ public class RandomWalker :MonoBehaviour
             }
             
         }
-        if(currentPos.y+1<gridSize){
+        if(currentPos.y+1<gizmoGrid[0].Count){
             Vector2 step = currentPos+new Vector2(0,1);
             if(!walked.Contains(step)){
                 possible.Add(step);

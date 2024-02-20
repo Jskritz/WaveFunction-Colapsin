@@ -33,6 +33,7 @@ public class Module : MonoBehaviour
     public Face Forward;
     
     public Face Back;
+    private Renderer myRenderer;
     
     public Face[] Faces {
         get {
@@ -46,14 +47,18 @@ public class Module : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        myRenderer=GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    public void SetColor(Color color){
+        Debug.Log("Tried to change collor");
+        myRenderer.material.color = color;
     }
 }

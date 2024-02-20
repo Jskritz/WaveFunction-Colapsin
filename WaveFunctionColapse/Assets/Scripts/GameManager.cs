@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public List<List<GameObject>> walkGrid = new List<List<GameObject>>();
 
+    public Collapser collapser;
+
     private RandomWalker walker;
 
     public GameObject slot;
@@ -16,11 +18,19 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GenerateGrid(50);
+        //GenerateGrid(50);
+        StartCoroutine(StartWalk());
+    }
+
+    IEnumerator StartWalk(){
+        yield return new WaitForSeconds(1.0f);
         walker = GetComponent<RandomWalker>();
+        walkGrid = collapser.getGrid();
+        Debug.Log("Size of grid :"+walkGrid.Count);
         walker.setGizmoGrid(walkGrid);
         Debug.Log("Starting Walk");
         walker.RandomWalk();
+        
     }
 
     // Update is called once per frame
