@@ -42,6 +42,8 @@ public class Module : MonoBehaviour
          SelectedPrototype = PotentialPrototypes[_rnd.Next(PotentialPrototypes.Count)];
          PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
          isCollapsed = true;
+         GetComponent<MeshFilter>().mesh = SelectedPrototype.mesh;
+         transform.rotation = SelectedPrototype.rotation;
     }
 
     public bool Constrain(Prototype neighbour, int direction)
