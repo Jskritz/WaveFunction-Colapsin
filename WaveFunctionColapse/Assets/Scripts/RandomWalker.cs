@@ -82,32 +82,13 @@ public class RandomWalker :MonoBehaviour
 
     private void PaintTargets()
     {
-        int slotIndex = -1;
-        GameObject slot = new GameObject();
         for(int i =0; i<gizmoGrid.Count;i++){
-            slot = gizmoGrid[(int)end.x][(int)end.y];
+            GameObject slot = gizmoGrid[(int)end.x][(int)end.y];
             slot.GetComponent<Module>().SetColor(Color.yellow);
-            // slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == end.x & e.transform.position.z == end.y);
-            // //Debug.Log("Current slot is: "+slotIndex);
-            // if(slotIndex >-1){
-            //     slot = gizmoGrid[end.x][end.y];
-            //     slot.GetComponent<Module>().SetColor(Color.yellow);
-            // }
         }
         for(int step=0;step<waypoints.Count;step++){
-            //Debug.Log("starting step n "+step);
-            slot = gizmoGrid[(int)waypoints[step].x][(int)waypoints[step].y];
+            GameObject slot = gizmoGrid[(int)waypoints[step].x][(int)waypoints[step].y];
             slot.GetComponent<Module>().SetColor(Color.yellow);
-        //     slotIndex = -1;
-        //     slot = new GameObject();
-        //     for(int i =0; i<gizmoGrid.Count;i++){
-        //         slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == waypoints[step].x & e.transform.position.z == waypoints[step].y);
-        //         //Debug.Log("Current slot is: "+slotIndex);
-        //         if(slotIndex >-1){
-        //             slot = gizmoGrid[i][slotIndex];
-        //             slot.GetComponent<Module>().SetColor(Color.yellow);
-        //         }
-        //     }
         }
     }
 
@@ -127,21 +108,8 @@ public class RandomWalker :MonoBehaviour
 
     IEnumerator DoTheWalk(){
         for(int step=0;step<walked.Count;step++){
-            Debug.Log("starting step n "+step);
-            int slotIndex = -1;
-            //GameObject slot = new GameObject();
-            Debug.Log("steping on coordinates : "+(int)walked[step].x+","+(int)walked[step].y);
             GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
-            Debug.Log("Found this slot: ",slot);
             slot.GetComponent<Module>().SetColor(Color.red);
-            // for(int i =0; i<gizmoGrid.Count;i++){
-            //     slotIndex = gizmoGrid[i].FindIndex(e=> e.transform.position.x == walked[step].x & e.transform.position.z == walked[step].y);
-            //     Debug.Log("Current slot is: "+i+","+slotIndex);
-            //     if(slotIndex >-1){
-            //         slot = gizmoGrid[i][slotIndex];
-            //         slot.GetComponent<Module>().SetColor(Color.red);
-            //     }
-            // }
             yield return new WaitForSeconds(0.2f);
             slot.GetComponent<Module>().SetColor(Color.green);
         }
@@ -183,20 +151,13 @@ public class RandomWalker :MonoBehaviour
             totalRange = totalRange+i+1;
         }
         possibilities.Sort((x,y)=> x.distance.CompareTo(y.distance));
-        //Debug.Log("size of possibilities : "+possibilities.Count);
-        // for(int i=0;i<possibilities.Count;i++){
-        //     Debug.Log("this is item "+i+" : "+possibilities[i].distance);
-        // }
         
         float rng = UnityEngine.Random.Range(0f,totalRange);
-        //  Debug.Log("Maximum range is :"+totalRange);
-        //  Debug.Log("random generated is: "+rng);
+
         int range=0;
         for(int i = 0;i<possibilities.Count;i++){
             range = range+i+1;
-            //Debug.Log("Tested this range: "+range);
             if(rng<=range){
-                //Debug.Log("Chose item "+(possibilities.Count - i-1)+" with distance : "+possibilities[possibilities.Count - i-1].distance);
                 return possibilities[possibilities.Count - i-1].position;
             }
         }

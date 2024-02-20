@@ -49,6 +49,7 @@ public class Collapser : MonoBehaviour
         }
     }
 
+  
     private void ClearWave()
     {
         foreach (var row in modules)
