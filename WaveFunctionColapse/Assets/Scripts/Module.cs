@@ -8,13 +8,21 @@ using Random = System.Random;
 
 public class Module : MonoBehaviour
 {
-    public List<Prototype> PotentialPrototypes;
+    public List<Prototype> PotentialPrototypes = new List<Prototype>();
 
     [CanBeNull] public Prototype SelectedPrototype;
 
+    [HideInInspector]
     public bool isCollapsed = false;
 
-    public int Entropy => PotentialPrototypes.Count;
+    public int Entropy
+    {
+        get { 
+            if(PotentialPrototypes == null) GetPrototypes();
+            return PotentialPrototypes.Count;
+        }
+        
+    }
 
     static Random _rnd = new Random();
 
@@ -32,21 +40,29 @@ public class Module : MonoBehaviour
 
     private void Awake()
     {
-        var moduleData = AssetDatabase.LoadAssetAtPath<ModuleData>("Assets/moduleData.asset");
-        PotentialPrototypes = moduleData.modules;
+        GetPrototypes();
     }
 
-    public void Collapse()
+    public void GetPrototypes()
     {
-        // randomly select one of the potential prototypes to be the selected prototype
-         SelectedPrototype = PotentialPrototypes[_rnd.Next(PotentialPrototypes.Count)];
-         PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
-         isCollapsed = true;
-         GetComponent<MeshFilter>().mesh = SelectedPrototype.mesh;
-         transform.rotation = SelectedPrototype.rotation;
+        var prototypeData = AssetDatabase.LoadAssetAtPath<PrototypeData>("Assets/prototypeData.asset");
+        if (prototypeData.Prototypes.Count == 0) prototypeData.ReadJson();
+        PotentialPrototypes = prototypeData.Prototypes;
+    }
+    
+    public void Collapse()
+    { 
+        if (PotentialPrototypes.Count == 0) GetPrototypes();
+        var choice = _rnd.Next(PotentialPrototypes.Count);
+        SelectedPrototype = PotentialPrototypes[choice];
+        Debug.Log($"Chose prototype {SelectedPrototype.id}");
+        PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
+        isCollapsed = true;
+        GetComponent<MeshFilter>().mesh = SelectedPrototype.mesh;
+        transform.rotation = SelectedPrototype.rotation;
     }
 
-    public bool Constrain(Prototype neighbour, int direction)
+    public bool Constrain(List<Prototype> neighbourPotentials, int direction)
     {
         // constrain the list of potential prototypes based on this new fixed neighbour
         /* this module is the neighbour's neighbour to the _ -> the neighbour is this prototype's _ neighbour
@@ -56,7 +72,8 @@ public class Module : MonoBehaviour
          * 3: forward -> back
          * return if the constrain updates the module
          */
-        var updated = false;
+        if (isCollapsed) return false;
+        var newPotentialPrototypes = new List<Prototype>();
         foreach (var prototype in PotentialPrototypes)
         {
             var validNeighbours = new List<string>();
@@ -76,14 +93,20 @@ public class Module : MonoBehaviour
                     break;
             }
 
-            if (!validNeighbours.Contains(neighbour.id))
+            foreach (var neighbour in neighbourPotentials)
             {
-                PotentialPrototypes.Remove(prototype);
-                updated = true;
+                if (validNeighbours.Contains(neighbour.id) && !newPotentialPrototypes.Contains(neighbour))
+                {
+                    newPotentialPrototypes.Add(prototype);
+                }
             }
+            
         }
 
-        return updated;
+        if (newPotentialPrototypes == PotentialPrototypes) return false;
+        PotentialPrototypes = newPotentialPrototypes;
+
+        return true;
     }
     
 }

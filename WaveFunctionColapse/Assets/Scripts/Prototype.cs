@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
+[Serializable]
 public class Prototype
 {
     [System.Serializable]
@@ -59,31 +60,34 @@ public class Prototype
     [HideInInspector]
     public Mesh mesh;
 
-    public Prototype(ModuleDataStruct moduleData)
+    public Prototype(PrototypeDataStruct prototypeData)
     {
-        id = moduleData.module_name;
+        Left = new Face();
+        Right = new Face();
+        Forward = new Face();
+        Back = new Face();
+        id = prototypeData.prototype_name;
         
-        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/TileSet/Tile Set/" + moduleData.mesh_name);
+        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/TileSet/Tile Set/" + prototypeData.mesh_name + ".fbx");
         
-        rotation = Quaternion.Euler(0f, 90 * moduleData.mesh_rotation, 0f);
+        rotation = Quaternion.Euler(0f, 90 * prototypeData.mesh_rotation, 0f);
 
-        string[] facePos = {moduleData.posX, moduleData.negX, moduleData.posY, moduleData.negY};
+        string[] facePos = {prototypeData.posX, prototypeData.negX, prototypeData.posY, prototypeData.negY};
 
         for (int i = 0; i < 4; i++)
-        {
-            var split = facePos[i].Split();
-            Faces[i].connector = int.Parse(split[0]);
-            if (split.Length > 1)
+        { 
+            Faces[i].connector = (int)Char.GetNumericValue(facePos[i][0]);
+            if (facePos[i].Length > 1)
             {
-                Faces[i].symmetric = split[1] == "s";
-                Faces[i].flipped = split[1] == "f";
+                Faces[i].symmetric = facePos[i][1] == 's';
+                Faces[i].flipped = facePos[i][1] == 'f';
             }
 
-            Faces[i].validNeighbours = moduleData.valid_neighbours[i];
+            Faces[i].validNeighbours = prototypeData.valid_neighbours[i];
         }
         
-        weight = moduleData.weight;
-        walkable = moduleData.walkable;
+        weight = prototypeData.weight;
+        walkable = prototypeData.Walkable;
 
         
     }

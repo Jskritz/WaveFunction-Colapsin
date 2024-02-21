@@ -9,7 +9,7 @@ using Random = System.Random;
 public class Collapser : MonoBehaviour
 {
     public GameObject module;
-    private List<List<GameObject>> _modules;
+    private List<List<GameObject>> _modules = new List<List<GameObject>>();
     
     static Random _rnd = new Random();
 
@@ -34,16 +34,17 @@ public class Collapser : MonoBehaviour
         if (_modules.Count != 0) ClearWave();
         settings = GetComponent<WaveSettings>();
         var pos = transform.position;
-        for (int x = 0; x < settings.x; x++)
+        for (int x = 0; x < settings.x / settings.scale; x++)
         {
-            var xpos = x + pos.x + settings.scale / 2;
+            var xpos = (x + 0.5f) * settings.scale + pos.x;
             var row = new List<GameObject>();
-            for (int z = 0; z < settings.z; z++)
+            for (int z = 0; z < settings.z / settings.scale; z++)
             {
-                var zpos = z + pos.z + settings.scale / 2;
+                var zpos = (z + 0.5f) * settings.scale + pos.z;
                 
-                var newModule = Instantiate(module, new Vector3(xpos, pos.y, zpos),
+                var newModule = Instantiate(module, new Vector3(xpos, (pos.y + 0.5f) * settings.scale, zpos),
                     Quaternion.identity);
+                newModule.GetComponent<Module>().GetPrototypes();
                 newModule.transform.parent = this.transform;
                 row.Add(newModule);
             }
@@ -71,9 +72,12 @@ public class Collapser : MonoBehaviour
 
     private void Collapse()
     {
+        var count = 0;
         while (!IsCollapsed())
         {
             Iterate();
+            count++;
+            if (count > 1000) break;
         }
     }
 
@@ -82,20 +86,21 @@ public class Collapser : MonoBehaviour
         List<GameObject> lowest = new List<GameObject>();
         List<List<int>> lowestCoords = new List<List<int>>();
         // find the modules with the lowest entropy (naively, so very naively)
-        for (int z = 0; z < settings.z; z++)
+        for (int z = 0; z < settings.z / settings.scale; z++)
         {
-            for (int x = 0; x < settings.x; x++)
+            for (int x = 0; x < settings.x / settings.scale; x++)
             {
-                if (lowest[0].GetComponent<Module>() == null)
+                if (lowest.Count == 0)
                 {
-                    lowest.Add(_modules[z][x]);
+                    lowest.Add(_modules[x][z]);
                     lowestCoords.Add(new List<int>() {x, z});
                     continue;
                 }
-                var m_module = _modules[z][x].GetComponent<Module>();
+                
+                var m_module = _modules[x][z].GetComponent<Module>();
                 if (m_module.Entropy <= lowest[0].GetComponent<Module>().Entropy)
                 {
-                    lowest.Add(_modules[z][x]);
+                    lowest.Add(_modules[x][z]);
                     lowestCoords.Add(new List<int>() { x, z });
                 }
             }
@@ -105,18 +110,22 @@ public class Collapser : MonoBehaviour
         var lowestModule = lowest[choice];
         var lowestModuleCoords = lowestCoords[choice];
         var lowestModuleModule = lowestModule.GetComponent<Module>();
+        Debug.Log($"chosen module: ({lowestModuleCoords[0]}, {lowestModuleCoords[1]})");
         lowestModuleModule.Collapse();
         
         // propagate the collapse
-        Stack<List<int>> stack = new Stack<List<int>>();
-        stack.Push(lowestModuleCoords);
+        Queue<List<int>> stack = new Queue<List<int>>();
+        stack.Enqueue(lowestModuleCoords);
+        var count = 0;
         while (stack.Count > 0)
         {
-            var currCoords = stack.Pop();
+            var currCoords = stack.Dequeue();
             foreach (var neighbourDir in GetNeighbours(currCoords))
             {
-                var x = lowestModuleCoords[0];
-                var z = lowestModuleCoords[1];
+                
+                Debug.Log($"Looking at the {neighbourDir} neighbour of: ({currCoords[0]},{currCoords[1]})");
+                var x = currCoords[0];
+                var z = currCoords[1];
                 switch (neighbourDir)
                 {
                     case NeighbourDir.Left:
@@ -133,12 +142,31 @@ public class Collapser : MonoBehaviour
                         break;
                 
                 }
+                
                 var neighbour = _modules[x][z];
-                if (neighbour.GetComponent<Module>().Constrain(lowestModuleModule.SelectedPrototype, (int)neighbourDir))
+                Debug.Log($"Constraining: ({x},{z})");
+                var current = _modules[currCoords[0]][currCoords[1]].GetComponent<Module>();
+                if(neighbour.GetComponent<Module>().Constrain(current.PotentialPrototypes, (int)neighbourDir))
                 {
-                    stack.Push(new List<int>() { x, z });
+                    Debug.Log("Did make constraints");
+                    var ncoords = new List<int>() { x, z };
+                    if (!stack.Any(c => c.SequenceEqual(ncoords)))
+                    {
+                        Debug.Log($"Adding ({ncoords[0]},{ncoords[1]}) to the queue");
+                        stack.Enqueue(ncoords);
+                    }
                 }
+
+                var outputstr = "";
+                foreach (var coord in stack)
+                {
+                    outputstr += $"({coord[0]},{coord[1]}), ";
+                }
+                Debug.Log(outputstr);
             }
+
+            count++;
+            if (count > 10) break;
         }
     }
     
@@ -161,10 +189,10 @@ public class Collapser : MonoBehaviour
     private List<NeighbourDir> GetNeighbours(List<int> coords)
     {
         var neighbours = new List<NeighbourDir>();
-        if(coords[0] + 1 < settings.x) neighbours.Add(NeighbourDir.Left);
-        if(coords[0] - 1 > 0) neighbours.Add(NeighbourDir.Right);
-        if(coords[1] + 1 < settings.z) neighbours.Add(NeighbourDir.Forward);
-        if(coords[1] -1 > 0) neighbours.Add(NeighbourDir.Back);
+        if(coords[0] + 1 < settings.x / settings.scale) neighbours.Add(NeighbourDir.Right);
+        if(coords[0] - 1 >= 0) neighbours.Add(NeighbourDir.Left);
+        if(coords[1] + 1 < settings.z / settings.scale) neighbours.Add(NeighbourDir.Forward);
+        if(coords[1] -1 >= 0) neighbours.Add(NeighbourDir.Back);
         return neighbours;
     }
     
@@ -199,6 +227,11 @@ public class Collapser : MonoBehaviour
             if (GUILayout.Button("Do it!"))
             {
                 linkedObject.Collapse();
+            }
+
+            if (GUILayout.Button("Iterate"))
+            {
+                linkedObject.Iterate();
             }
         }
     }
