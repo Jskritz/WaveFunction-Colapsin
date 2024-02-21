@@ -67,8 +67,9 @@ public class Prototype : IEquatable<Prototype>
         Forward = new Face();
         Back = new Face();
         id = prototypeData.prototype_name;
+
         
-        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Tile Set/wfc_modules.fbx");
+        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Tile Set/" + prototypeData.mesh_name + ".fbx");
         
         rotation = Quaternion.Euler(0f, 90 * prototypeData.mesh_rotation, 0f);
 
