@@ -1,13 +1,14 @@
 {
     "prototypes": [
         {
+            "prototype_name": "p0",
             "mesh_name": "wfc_module_0",
             "mesh_rotation": 0,
             "posX": "0s",
             "negX": "0s",
             "posY": "0s",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -108,17 +109,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p0"
+            ]
         },
         {
+            "prototype_name": "p1",
             "mesh_name": "wfc_module_0",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "0s",
             "posY": "0s",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -219,17 +220,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p1"
+            ]
         },
         {
+            "prototype_name": "p2",
             "mesh_name": "wfc_module_0",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "0s",
             "posY": "0s",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -330,17 +331,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p2"
+            ]
         },
         {
+            "prototype_name": "p3",
             "mesh_name": "wfc_module_0",
             "mesh_rotation": 3,
             "posX": "0s",
             "negX": "0s",
             "posY": "0s",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -441,17 +442,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p3"
+            ]
         },
         {
+            "prototype_name": "p4",
             "mesh_name": "wfc_module_1",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -544,17 +545,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p4"
+            ]
         },
         {
+            "prototype_name": "p5",
             "mesh_name": "wfc_module_1",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -647,17 +648,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p5"
+            ]
         },
         {
+            "prototype_name": "p6",
             "mesh_name": "wfc_module_1",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -750,17 +751,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p6"
+            ]
         },
         {
+            "prototype_name": "p7",
             "mesh_name": "wfc_module_1",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -853,17 +854,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p7"
+            ]
         },
         {
+            "prototype_name": "p8",
             "mesh_name": "wfc_module_2",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -956,17 +957,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p8"
+            ]
         },
         {
+            "prototype_name": "p9",
             "mesh_name": "wfc_module_2",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1059,17 +1060,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p9"
+            ]
         },
         {
+            "prototype_name": "p10",
             "mesh_name": "wfc_module_2",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1162,17 +1163,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p10"
+            ]
         },
         {
+            "prototype_name": "p11",
             "mesh_name": "wfc_module_2",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1265,17 +1266,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p11"
+            ]
         },
         {
+            "prototype_name": "p12",
             "mesh_name": "wfc_module_3",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1368,17 +1369,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p12"
+            ]
         },
         {
+            "prototype_name": "p13",
             "mesh_name": "wfc_module_3",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1471,17 +1472,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p13"
+            ]
         },
         {
+            "prototype_name": "p14",
             "mesh_name": "wfc_module_3",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1574,17 +1575,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p14"
+            ]
         },
         {
+            "prototype_name": "p15",
             "mesh_name": "wfc_module_3",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1677,17 +1678,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p15"
+            ]
         },
         {
+            "prototype_name": "p16",
             "mesh_name": "wfc_module_4",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1780,17 +1781,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p16"
+            ]
         },
         {
+            "prototype_name": "p17",
             "mesh_name": "wfc_module_4",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1883,17 +1884,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p17"
+            ]
         },
         {
+            "prototype_name": "p18",
             "mesh_name": "wfc_module_4",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -1986,17 +1987,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p18"
+            ]
         },
         {
+            "prototype_name": "p19",
             "mesh_name": "wfc_module_4",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2089,17 +2090,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p19"
+            ]
         },
         {
+            "prototype_name": "p20",
             "mesh_name": "wfc_module_5",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2192,17 +2193,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p20"
+            ]
         },
         {
+            "prototype_name": "p21",
             "mesh_name": "wfc_module_5",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2295,17 +2296,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p21"
+            ]
         },
         {
+            "prototype_name": "p22",
             "mesh_name": "wfc_module_5",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2398,17 +2399,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p22"
+            ]
         },
         {
+            "prototype_name": "p23",
             "mesh_name": "wfc_module_5",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2501,17 +2502,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p23"
+            ]
         },
         {
+            "prototype_name": "p24",
             "mesh_name": "wfc_module_6",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2604,17 +2605,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p24"
+            ]
         },
         {
+            "prototype_name": "p25",
             "mesh_name": "wfc_module_6",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2707,17 +2708,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p25"
+            ]
         },
         {
+            "prototype_name": "p26",
             "mesh_name": "wfc_module_6",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2810,17 +2811,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p26"
+            ]
         },
         {
+            "prototype_name": "p27",
             "mesh_name": "wfc_module_6",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -2913,17 +2914,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p27"
+            ]
         },
         {
+            "prototype_name": "p28",
             "mesh_name": "wfc_module_7",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3016,17 +3017,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p28"
+            ]
         },
         {
+            "prototype_name": "p29",
             "mesh_name": "wfc_module_7",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3119,17 +3120,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p29"
+            ]
         },
         {
+            "prototype_name": "p30",
             "mesh_name": "wfc_module_7",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3222,17 +3223,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p30"
+            ]
         },
         {
+            "prototype_name": "p31",
             "mesh_name": "wfc_module_7",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3325,17 +3326,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p31"
+            ]
         },
         {
+            "prototype_name": "p32",
             "mesh_name": "wfc_module_8",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "1s",
             "posY": "1s",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3436,17 +3437,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p32"
+            ]
         },
         {
+            "prototype_name": "p33",
             "mesh_name": "wfc_module_8",
             "mesh_rotation": 1,
             "posX": "1s",
             "negX": "1s",
             "posY": "1s",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3547,17 +3548,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p33"
+            ]
         },
         {
+            "prototype_name": "p34",
             "mesh_name": "wfc_module_8",
             "mesh_rotation": 2,
             "posX": "1s",
             "negX": "1s",
             "posY": "1s",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3658,17 +3659,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p34"
+            ]
         },
         {
+            "prototype_name": "p35",
             "mesh_name": "wfc_module_8",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "1s",
             "posY": "1s",
             "negY": "1s",
-            "Walkable": true,
+            "walkable": true,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3769,17 +3770,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p35"
+            ]
         },
         {
+            "prototype_name": "p36",
             "mesh_name": "wfc_module_9",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3872,17 +3873,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p36"
+            ]
         },
         {
+            "prototype_name": "p37",
             "mesh_name": "wfc_module_9",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -3975,17 +3976,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p37"
+            ]
         },
         {
+            "prototype_name": "p38",
             "mesh_name": "wfc_module_9",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4078,17 +4079,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p38"
+            ]
         },
         {
+            "prototype_name": "p39",
             "mesh_name": "wfc_module_9",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4181,17 +4182,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p39"
+            ]
         },
         {
+            "prototype_name": "p40",
             "mesh_name": "wfc_module_10",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4284,17 +4285,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p40"
+            ]
         },
         {
+            "prototype_name": "p41",
             "mesh_name": "wfc_module_10",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4387,17 +4388,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p41"
+            ]
         },
         {
+            "prototype_name": "p42",
             "mesh_name": "wfc_module_10",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4490,17 +4491,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p42"
+            ]
         },
         {
+            "prototype_name": "p43",
             "mesh_name": "wfc_module_10",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4593,17 +4594,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p43"
+            ]
         },
         {
+            "prototype_name": "p44",
             "mesh_name": "wfc_module_11",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4696,17 +4697,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p44"
+            ]
         },
         {
+            "prototype_name": "p45",
             "mesh_name": "wfc_module_11",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4799,17 +4800,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p45"
+            ]
         },
         {
+            "prototype_name": "p46",
             "mesh_name": "wfc_module_11",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -4902,17 +4903,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p46"
+            ]
         },
         {
+            "prototype_name": "p47",
             "mesh_name": "wfc_module_11",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5005,17 +5006,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p47"
+            ]
         },
         {
+            "prototype_name": "p48",
             "mesh_name": "wfc_module_12",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5108,17 +5109,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p48"
+            ]
         },
         {
+            "prototype_name": "p49",
             "mesh_name": "wfc_module_12",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5211,17 +5212,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p49"
+            ]
         },
         {
+            "prototype_name": "p50",
             "mesh_name": "wfc_module_12",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5314,17 +5315,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p50"
+            ]
         },
         {
+            "prototype_name": "p51",
             "mesh_name": "wfc_module_12",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5417,17 +5418,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p51"
+            ]
         },
         {
+            "prototype_name": "p52",
             "mesh_name": "wfc_module_13",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "0s",
             "posY": "2",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5520,17 +5521,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p52"
+            ]
         },
         {
+            "prototype_name": "p53",
             "mesh_name": "wfc_module_13",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "2",
             "posY": "1s",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5623,17 +5624,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p53"
+            ]
         },
         {
+            "prototype_name": "p54",
             "mesh_name": "wfc_module_13",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "1s",
             "posY": "2f",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5726,17 +5727,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p54"
+            ]
         },
         {
+            "prototype_name": "p55",
             "mesh_name": "wfc_module_13",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "2f",
             "posY": "0s",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5829,17 +5830,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p55"
+            ]
         },
         {
+            "prototype_name": "p56",
             "mesh_name": "wfc_module_14",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -5932,17 +5933,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p56"
+            ]
         },
         {
+            "prototype_name": "p57",
             "mesh_name": "wfc_module_14",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6035,17 +6036,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p57"
+            ]
         },
         {
+            "prototype_name": "p58",
             "mesh_name": "wfc_module_14",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6138,17 +6139,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p58"
+            ]
         },
         {
+            "prototype_name": "p59",
             "mesh_name": "wfc_module_14",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6241,17 +6242,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p59"
+            ]
         },
         {
+            "prototype_name": "p60",
             "mesh_name": "wfc_module_15",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6344,17 +6345,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p60"
+            ]
         },
         {
+            "prototype_name": "p61",
             "mesh_name": "wfc_module_15",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6447,17 +6448,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p61"
+            ]
         },
         {
+            "prototype_name": "p62",
             "mesh_name": "wfc_module_15",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6550,17 +6551,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p62"
+            ]
         },
         {
+            "prototype_name": "p63",
             "mesh_name": "wfc_module_15",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6653,17 +6654,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p63"
+            ]
         },
         {
+            "prototype_name": "p64",
             "mesh_name": "wfc_module_16",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6756,17 +6757,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p64"
+            ]
         },
         {
+            "prototype_name": "p65",
             "mesh_name": "wfc_module_16",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6859,17 +6860,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p65"
+            ]
         },
         {
+            "prototype_name": "p66",
             "mesh_name": "wfc_module_16",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -6962,17 +6963,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p66"
+            ]
         },
         {
+            "prototype_name": "p67",
             "mesh_name": "wfc_module_16",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7065,17 +7066,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p67"
+            ]
         },
         {
+            "prototype_name": "p68",
             "mesh_name": "wfc_module_17",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7168,17 +7169,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p68"
+            ]
         },
         {
+            "prototype_name": "p69",
             "mesh_name": "wfc_module_17",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7271,17 +7272,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p69"
+            ]
         },
         {
+            "prototype_name": "p70",
             "mesh_name": "wfc_module_17",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7374,17 +7375,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p70"
+            ]
         },
         {
+            "prototype_name": "p71",
             "mesh_name": "wfc_module_17",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7477,17 +7478,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p71"
+            ]
         },
         {
+            "prototype_name": "p72",
             "mesh_name": "wfc_module_18",
             "mesh_rotation": 0,
             "posX": "1s",
             "negX": "2",
             "posY": "1s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7580,17 +7581,17 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p72"
+            ]
         },
         {
+            "prototype_name": "p73",
             "mesh_name": "wfc_module_18",
             "mesh_rotation": 1,
             "posX": "2f",
             "negX": "1s",
             "posY": "1s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7683,17 +7684,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p73"
+            ]
         },
         {
+            "prototype_name": "p74",
             "mesh_name": "wfc_module_18",
             "mesh_rotation": 2,
             "posX": "2",
             "negX": "1s",
             "posY": "2f",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7786,17 +7787,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p74"
+            ]
         },
         {
+            "prototype_name": "p75",
             "mesh_name": "wfc_module_18",
             "mesh_rotation": 3,
             "posX": "1s",
             "negX": "2f",
             "posY": "2",
             "negY": "1s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7889,17 +7890,17 @@
                     "p72",
                     "p73"
                 ]
-            ],
-            "prototype_name": "p75"
+            ]
         },
         {
+            "prototype_name": "p76",
             "mesh_name": "wfc_module_19",
             "mesh_rotation": 0,
             "posX": "2f",
             "negX": "0s",
             "posY": "2",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -7992,17 +7993,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p76"
+            ]
         },
         {
+            "prototype_name": "p77",
             "mesh_name": "wfc_module_19",
             "mesh_rotation": 1,
             "posX": "0s",
             "negX": "2",
             "posY": "2f",
             "negY": "0s",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -8095,17 +8096,17 @@
                     "p78",
                     "p79"
                 ]
-            ],
-            "prototype_name": "p77"
+            ]
         },
         {
+            "prototype_name": "p78",
             "mesh_name": "wfc_module_19",
             "mesh_rotation": 2,
             "posX": "0s",
             "negX": "2f",
             "posY": "0s",
             "negY": "2",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -8198,17 +8199,17 @@
                     "p74",
                     "p77"
                 ]
-            ],
-            "prototype_name": "p78"
+            ]
         },
         {
+            "prototype_name": "p79",
             "mesh_name": "wfc_module_19",
             "mesh_rotation": 3,
             "posX": "2",
             "negX": "0s",
             "posY": "0s",
             "negY": "2f",
-            "Walkable": false,
+            "walkable": false,
             "constrain_to": "",
             "constrain_from": "",
             "weight": 1,
@@ -8301,8 +8302,7 @@
                     "p75",
                     "p76"
                 ]
-            ],
-            "prototype_name": "p79"
+            ]
         },
         {
             "mesh_name": "-1",
@@ -8311,7 +8311,8 @@
             "negX": "-1f",
             "posY": "-1f",
             "negY": "-1f",
-            "Walkable": "false",
+            "posZ": "-1f",
+            "negZ": "-1f",
             "constrain_to": "-1",
             "constrain_from": "-1",
             "weight": 1,
@@ -8328,8 +8329,7 @@
                 [
                     "p-1"
                 ]
-            ],
-            "prototype_name": "p-1"
+            ]
         }
     ]
 }
