@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 
 [Serializable]
-public class Prototype
+public class Prototype : IEquatable<Prototype>
 {
     [System.Serializable]
     public class Face
@@ -90,5 +90,10 @@ public class Prototype
         walkable = prototypeData.Walkable;
 
         
+    }
+
+    public bool Equals(Prototype other)
+    {
+        return this.id == other.id;
     }
 }

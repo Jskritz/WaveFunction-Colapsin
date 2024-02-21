@@ -23,7 +23,7 @@ public class PrototypeData : ScriptableObject
 
     public void ReadJson()
     {
-        
+        Prototypes = new List<Prototype>();
         //var prototypeDataList = JsonUtility.FromJson<PrototypeDataList>(prototypeDataFile.text).prototypes;
         var prototypeDataList = JsonConvert.DeserializeObject<PrototypeDataList>(prototypeDataFile.text).prototypes;
         foreach (var prototypeData in prototypeDataList)

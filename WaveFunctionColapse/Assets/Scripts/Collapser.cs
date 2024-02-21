@@ -90,6 +90,9 @@ public class Collapser : MonoBehaviour
         {
             for (int x = 0; x < settings.x / settings.scale; x++)
             {
+                Debug.Log($"({x},{z})");
+                var m_module = _modules[x][z].GetComponent<Module>();
+                if (m_module.isCollapsed) continue;
                 if (lowest.Count == 0)
                 {
                     lowest.Add(_modules[x][z]);
@@ -97,7 +100,6 @@ public class Collapser : MonoBehaviour
                     continue;
                 }
                 
-                var m_module = _modules[x][z].GetComponent<Module>();
                 if (m_module.Entropy <= lowest[0].GetComponent<Module>().Entropy)
                 {
                     lowest.Add(_modules[x][z]);
@@ -114,16 +116,18 @@ public class Collapser : MonoBehaviour
         lowestModuleModule.Collapse();
         
         // propagate the collapse
-        Queue<List<int>> stack = new Queue<List<int>>();
-        stack.Enqueue(lowestModuleCoords);
+        Queue<List<int>> queue = new Queue<List<int>>();
+        List<List<int>> history = new List<List<int>>();
+        queue.Enqueue(lowestModuleCoords);
         var count = 0;
-        while (stack.Count > 0)
+        while (queue.Count > 0)
         {
-            var currCoords = stack.Dequeue();
+            
+            var currCoords = queue.Dequeue();
             foreach (var neighbourDir in GetNeighbours(currCoords))
             {
                 
-                Debug.Log($"Looking at the {neighbourDir} neighbour of: ({currCoords[0]},{currCoords[1]})");
+                //Debug.Log($"Looking at the {neighbourDir} neighbour of: ({currCoords[0]},{currCoords[1]})");
                 var x = currCoords[0];
                 var z = currCoords[1];
                 switch (neighbourDir)
@@ -144,29 +148,35 @@ public class Collapser : MonoBehaviour
                 }
                 
                 var neighbour = _modules[x][z];
-                Debug.Log($"Constraining: ({x},{z})");
+                //Debug.Log($"Constraining: ({x},{z})");
                 var current = _modules[currCoords[0]][currCoords[1]].GetComponent<Module>();
                 if(neighbour.GetComponent<Module>().Constrain(current.PotentialPrototypes, (int)neighbourDir))
                 {
-                    Debug.Log("Did make constraints");
-                    var ncoords = new List<int>() { x, z };
-                    if (!stack.Any(c => c.SequenceEqual(ncoords)))
+                    //Debug.Log("Did make constraints");
+                    var _outputstr = "";
+                    foreach (var h in history)
                     {
-                        Debug.Log($"Adding ({ncoords[0]},{ncoords[1]}) to the queue");
-                        stack.Enqueue(ncoords);
+                        _outputstr += $"({h[0]},{h[1]}), ";
+                    }
+                    //Debug.Log($"history: "+_outputstr);
+                    if (!history.Any(c => c[0] == x && c[1] == z))
+                    {
+                        //Debug.Log($"Adding ({x},{z}) to the queue");
+                        queue.Enqueue(new List<int>(){x, z});
+                        history.Add(new List<int>(){x, z});
                     }
                 }
 
-                var outputstr = "";
-                foreach (var coord in stack)
+                /*var outputstr = "";
+                foreach (var coord in queue)
                 {
                     outputstr += $"({coord[0]},{coord[1]}), ";
                 }
-                Debug.Log(outputstr);
+                Debug.Log(outputstr);*/
             }
 
             count++;
-            if (count > 10) break;
+            if (count > 100) break;
         }
     }
     

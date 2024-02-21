@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
@@ -12,7 +13,7 @@ public class Module : MonoBehaviour
 
     [CanBeNull] public Prototype SelectedPrototype;
 
-    [HideInInspector]
+    //[HideInInspector]
     public bool isCollapsed = false;
 
     public int Entropy
@@ -55,7 +56,6 @@ public class Module : MonoBehaviour
         if (PotentialPrototypes.Count == 0) GetPrototypes();
         var choice = _rnd.Next(PotentialPrototypes.Count);
         SelectedPrototype = PotentialPrototypes[choice];
-        Debug.Log($"Chose prototype {SelectedPrototype.id}");
         PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
         isCollapsed = true;
         GetComponent<MeshFilter>().mesh = SelectedPrototype.mesh;
@@ -92,15 +92,17 @@ public class Module : MonoBehaviour
                     validNeighbours = prototype.Faces[1].validNeighbours;
                     break;
             }
-
+            //if(CartProducts.Any(prod => prod.ID == p.ID))
+            //newPotentialPrototypes.Contains(neighbour)
             foreach (var neighbour in neighbourPotentials)
             {
-                if (validNeighbours.Contains(neighbour.id) && !newPotentialPrototypes.Contains(neighbour))
+                if (validNeighbours.Contains(neighbour.id) && newPotentialPrototypes.All(p => prototype.id != p.id))
                 {
+                    //Debug.Log($"added {prototype.id} to the list of potentials");
                     newPotentialPrototypes.Add(prototype);
                 }
             }
-            
+
         }
 
         if (newPotentialPrototypes == PotentialPrototypes) return false;
