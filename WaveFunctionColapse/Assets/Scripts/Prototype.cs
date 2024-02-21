@@ -71,7 +71,7 @@ public class Prototype : IEquatable<Prototype>
         
         mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Tile Set/" + prototypeData.mesh_name + ".fbx");
         
-        rotation = Quaternion.Euler(0f, 90 * prototypeData.mesh_rotation, 0f);
+        rotation = Quaternion.Euler(0f, -90 * prototypeData.mesh_rotation, 0f);
 
         string[] facePos = {prototypeData.posX, prototypeData.negX, prototypeData.posY, prototypeData.negY};
 
