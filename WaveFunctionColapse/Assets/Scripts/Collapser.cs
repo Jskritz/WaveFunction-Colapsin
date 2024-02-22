@@ -22,8 +22,8 @@ public class Collapser : MonoBehaviour
 // Start is called before the first frame update
     void Start()
     {
-        BuildEmptyWave();
-        Collapse();
+        if(_modules.Count == 0) BuildEmptyWave();
+        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.5f, settings.speed);
     }
 
     // Update is called once per frame
@@ -79,14 +79,24 @@ public class Collapser : MonoBehaviour
         var count = 0;
         while (!IsCollapsed())
         {
+            var time = Time.realtimeSinceStartup;
             Iterate();
+            Debug.Log("Completed one iteration in " + (Time.realtimeSinceStartup - time) + " seconds");
             count++;
             if (count > 1000) break;
         }
     }
 
+    private void DoIterate()
+    {
+        if (IsCollapsed()) return;
+        Iterate();
+    }
+    
+    
     private void Iterate()
     {
+        #region Collapsing
         List<GameObject> lowest = new List<GameObject>();
         List<List<int>> lowestCoords = new List<List<int>>();
         // find the modules with the lowest entropy (naively, so very naively)
@@ -94,7 +104,6 @@ public class Collapser : MonoBehaviour
         {
             for (int x = 0; x < settings.x / settings.scale; x++)
             {
-                Debug.Log($"({x},{z})");
                 var m_module = _modules[x][z].GetComponent<Module>();
                 if (m_module.isCollapsed) continue;
                 if (lowest.Count == 0)
@@ -103,22 +112,32 @@ public class Collapser : MonoBehaviour
                     lowestCoords.Add(new List<int>() {x, z});
                     continue;
                 }
-                
-                if (m_module.Entropy <= lowest[0].GetComponent<Module>().Entropy)
+
+                var lowestEnt = lowest[-1].GetComponent<Module>().Entropy;
+                if (m_module.Entropy < lowestEnt)
+                {
+                    lowest.Clear();
+                    lowestCoords.Clear();
+                    lowest.Add(_modules[x][z]);
+                    lowestCoords.Add(new List<int>() { x, z });
+                }
+                else if (m_module.Entropy == lowestEnt)
                 {
                     lowest.Add(_modules[x][z]);
                     lowestCoords.Add(new List<int>() { x, z });
                 }
             }
         }
+        
         // randomly select a lowest entropy module and collapse it
         var choice = _rnd.Next(lowest.Count);
         var lowestModule = lowest[choice];
         var lowestModuleCoords = lowestCoords[choice];
         var lowestModuleModule = lowestModule.GetComponent<Module>();
-        Debug.Log($"chosen module: ({lowestModuleCoords[0]}, {lowestModuleCoords[1]})");
         lowestModuleModule.Collapse();
+        #endregion
         
+        #region Propagate
         // propagate the collapse
         Queue<List<int>> queue = new Queue<List<int>>();
         List<List<int>> history = new List<List<int>>();
@@ -130,8 +149,6 @@ public class Collapser : MonoBehaviour
             var currCoords = queue.Dequeue();
             foreach (var neighbourDir in GetNeighbours(currCoords))
             {
-                
-                //Debug.Log($"Looking at the {neighbourDir} neighbour of: ({currCoords[0]},{currCoords[1]})");
                 var x = currCoords[0];
                 var z = currCoords[1];
                 switch (neighbourDir)
@@ -152,36 +169,27 @@ public class Collapser : MonoBehaviour
                 }
                 
                 var neighbour = _modules[x][z];
-                //Debug.Log($"Constraining: ({x},{z})");
                 var current = _modules[currCoords[0]][currCoords[1]].GetComponent<Module>();
                 if(neighbour.GetComponent<Module>().Constrain(current.PotentialPrototypes, (int)neighbourDir))
                 {
-                    //Debug.Log("Did make constraints");
                     var _outputstr = "";
                     foreach (var h in history)
                     {
                         _outputstr += $"({h[0]},{h[1]}), ";
                     }
-                    //Debug.Log($"history: "+_outputstr);
                     if (!history.Any(c => c[0] == x && c[1] == z))
                     {
-                        //Debug.Log($"Adding ({x},{z}) to the queue");
                         queue.Enqueue(new List<int>(){x, z});
                         history.Add(new List<int>(){x, z});
                     }
                 }
-
-                /*var outputstr = "";
-                foreach (var coord in queue)
-                {
-                    outputstr += $"({coord[0]},{coord[1]}), ";
-                }
-                Debug.Log(outputstr);*/
+                
             }
 
             count++;
             if (count > 100) break;
         }
+        #endregion
     }
     
     private bool IsCollapsed()
