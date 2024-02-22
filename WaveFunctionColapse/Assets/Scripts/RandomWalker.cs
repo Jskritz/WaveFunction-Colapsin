@@ -36,6 +36,7 @@ public class RandomWalker :MonoBehaviour
         gizmoGrid = collapser._modules;
         int gridSize = gizmoGrid.Count;
         Vector2 currentPos = start;
+        walked.Add(currentPos);
         Vector2 currentTarget=waypoints[0];
         int waypointIndex=0;
         bool walkEnded = false;
@@ -87,6 +88,7 @@ public class RandomWalker :MonoBehaviour
     {
         for(int i =0; i<gizmoGrid.Count;i++){
             GameObject slot = gizmoGrid[(int)end.x][(int)end.y];
+            Module module = slot.GetComponent<Module>();
             slot.GetComponent<Module>().SetColor(Color.blue);
         }
         for(int step=0;step<waypoints.Count;step++){
@@ -109,15 +111,14 @@ public class RandomWalker :MonoBehaviour
         return closest;
     }
 
-    IEnumerator DoTheWalk(){
+    IEnumerator VisualizeTheWalk(){
         PaintTargets();
         for(int step=0;step<walked.Count;step++){
             GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
             slot.GetComponent<Module>().SetColor(Color.red);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(1.0f);
             slot.GetComponent<Module>().SetColor(Color.green);
         }
-        
     }
     private Vector2 ComputeNextStep(List<Vector2> possibleSteps,  Vector2 currentTarget)
     {
@@ -221,12 +222,25 @@ public class RandomWalker :MonoBehaviour
                 linkedObject.RandomWalk();
             }
 
+            if (GUILayout.Button("apply Random Walk tagging"))
+            {
+                linkedObject.DoTheWalk();
+            }
+
             if (GUILayout.Button("Visualize Random Walk"))
             {
-                EditorCoroutineUtility.StartCoroutine(linkedObject.DoTheWalk(), this);
+                EditorCoroutineUtility.StartCoroutine(linkedObject.VisualizeTheWalk(), this);
                 //linkedObject.DoTheWalk();
             }
 
+        }
+    }
+
+    private void DoTheWalk()
+    {
+        for(int step=0;step<walked.Count;step++){
+            GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
+            slot.GetComponent<Module>().MarkAsWalkable();
         }
     }
 }

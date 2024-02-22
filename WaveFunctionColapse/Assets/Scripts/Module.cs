@@ -43,7 +43,7 @@ public class Module : MonoBehaviour
 
     private void Awake()
     {
-        myRenderer = this.gameObject.GetComponent<Renderer>();
+        myRenderer=GetComponent<Renderer>();
         GetPrototypes();
     }
 
@@ -113,8 +113,18 @@ public class Module : MonoBehaviour
 
         return true;
     }
+    public void MarkAsWalkable(){
+        List<Prototype> walkables = new List<Prototype>();
+        for(int i =0;i<PotentialPrototypes.Count;i++){
+            if(PotentialPrototypes[i].walkable){
+                walkables.Add(PotentialPrototypes[i]);
+            }
+        }
+        PotentialPrototypes = walkables;
+    }
 
     public void SetColor(Color color){
+        myRenderer=GetComponent<Renderer>();
         myRenderer.material.color=color;
     }
     
