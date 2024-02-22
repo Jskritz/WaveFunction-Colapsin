@@ -1,0 +1,1855 @@
+{
+    "prototypes": [
+        {
+            "prototype_name": "p0",
+            "mesh_name": "wfc_module_0",
+            "mesh_rotation": 0,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p1",
+            "mesh_name": "wfc_module_0",
+            "mesh_rotation": 1,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p2",
+            "mesh_name": "wfc_module_0",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p3",
+            "mesh_name": "wfc_module_0",
+            "mesh_rotation": 3,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p4",
+            "mesh_name": "wfc_module_1",
+            "mesh_rotation": 0,
+            "posX": "1s",
+            "negX": "2",
+            "posY": "1s",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p5",
+            "mesh_name": "wfc_module_1",
+            "mesh_rotation": 1,
+            "posX": "2f",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p6",
+            "mesh_name": "wfc_module_1",
+            "mesh_rotation": 2,
+            "posX": "2",
+            "negX": "1s",
+            "posY": "2f",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p7",
+            "mesh_name": "wfc_module_1",
+            "mesh_rotation": 3,
+            "posX": "1s",
+            "negX": "2f",
+            "posY": "2",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p8",
+            "mesh_name": "wfc_module_2",
+            "mesh_rotation": 0,
+            "posX": "1s",
+            "negX": "2",
+            "posY": "1s",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p9",
+            "mesh_name": "wfc_module_2",
+            "mesh_rotation": 1,
+            "posX": "2f",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p10",
+            "mesh_name": "wfc_module_2",
+            "mesh_rotation": 2,
+            "posX": "2",
+            "negX": "1s",
+            "posY": "2f",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p11",
+            "mesh_name": "wfc_module_2",
+            "mesh_rotation": 3,
+            "posX": "1s",
+            "negX": "2f",
+            "posY": "2",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p12",
+            "mesh_name": "wfc_module_3",
+            "mesh_rotation": 0,
+            "posX": "2f",
+            "negX": "0s",
+            "posY": "2",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p13",
+            "mesh_name": "wfc_module_3",
+            "mesh_rotation": 1,
+            "posX": "0s",
+            "negX": "2",
+            "posY": "2f",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p14",
+            "mesh_name": "wfc_module_3",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "2f",
+            "posY": "0s",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p15",
+            "mesh_name": "wfc_module_3",
+            "mesh_rotation": 3,
+            "posX": "2",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p16",
+            "mesh_name": "wfc_module_4",
+            "mesh_rotation": 0,
+            "posX": "2f",
+            "negX": "0s",
+            "posY": "2",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p17",
+            "mesh_name": "wfc_module_4",
+            "mesh_rotation": 1,
+            "posX": "0s",
+            "negX": "2",
+            "posY": "2f",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p18",
+            "mesh_name": "wfc_module_4",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "2f",
+            "posY": "0s",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p19",
+            "mesh_name": "wfc_module_4",
+            "mesh_rotation": 3,
+            "posX": "2",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p20",
+            "mesh_name": "wfc_module_5",
+            "mesh_rotation": 0,
+            "posX": "1s",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "1s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p21",
+            "mesh_name": "wfc_module_5",
+            "mesh_rotation": 1,
+            "posX": "1s",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "1s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p22",
+            "mesh_name": "wfc_module_5",
+            "mesh_rotation": 2,
+            "posX": "1s",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "1s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p23",
+            "mesh_name": "wfc_module_5",
+            "mesh_rotation": 3,
+            "posX": "1s",
+            "negX": "1s",
+            "posY": "1s",
+            "negY": "1s",
+            "walkable": true,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p24",
+            "mesh_name": "wfc_module_6",
+            "mesh_rotation": 0,
+            "posX": "1s",
+            "negX": "0s",
+            "posY": "2",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p25",
+            "mesh_name": "wfc_module_6",
+            "mesh_rotation": 1,
+            "posX": "2f",
+            "negX": "2",
+            "posY": "1s",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p26",
+            "mesh_name": "wfc_module_6",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "1s",
+            "posY": "2f",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p27",
+            "mesh_name": "wfc_module_6",
+            "mesh_rotation": 3,
+            "posX": "2",
+            "negX": "2f",
+            "posY": "0s",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p28",
+            "mesh_name": "wfc_module_7",
+            "mesh_rotation": 0,
+            "posX": "1s",
+            "negX": "0s",
+            "posY": "2",
+            "negY": "2f",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p5",
+                    "p6",
+                    "p9",
+                    "p10",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p8",
+                    "p15",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p13",
+                    "p14",
+                    "p17",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p7",
+                    "p11",
+                    "p12",
+                    "p16",
+                    "p24",
+                    "p28"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p29",
+            "mesh_name": "wfc_module_7",
+            "mesh_rotation": 1,
+            "posX": "2f",
+            "negX": "2",
+            "posY": "1s",
+            "negY": "0s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p4",
+                    "p8",
+                    "p13",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p7",
+                    "p10",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p12",
+                    "p16",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p14",
+                    "p15",
+                    "p18",
+                    "p19",
+                    "p27",
+                    "p31"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p30",
+            "mesh_name": "wfc_module_7",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "1s",
+            "posY": "2f",
+            "negY": "2",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p15",
+                    "p16",
+                    "p19",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p5",
+                    "p9",
+                    "p14",
+                    "p18",
+                    "p26",
+                    "p30"
+                ],
+                [
+                    "p4",
+                    "p7",
+                    "p8",
+                    "p11",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p24",
+                    "p28"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p13",
+                    "p17",
+                    "p26",
+                    "p30"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p31",
+            "mesh_name": "wfc_module_7",
+            "mesh_rotation": 3,
+            "posX": "2",
+            "negX": "2f",
+            "posY": "0s",
+            "negY": "1s",
+            "walkable": false,
+            "constrain_to": "",
+            "constrain_from": "",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p7",
+                    "p11",
+                    "p14",
+                    "p18",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p12",
+                    "p13",
+                    "p16",
+                    "p17",
+                    "p25",
+                    "p29"
+                ],
+                [
+                    "p6",
+                    "p10",
+                    "p15",
+                    "p19",
+                    "p27",
+                    "p31"
+                ],
+                [
+                    "p4",
+                    "p5",
+                    "p8",
+                    "p9",
+                    "p20",
+                    "p21",
+                    "p22",
+                    "p23",
+                    "p25",
+                    "p29"
+                ]
+            ]
+        },
+        {
+            "mesh_name": "-1",
+            "mesh_rotation": 0,
+            "posX": "-1f",
+            "negX": "-1f",
+            "posY": "-1f",
+            "negY": "-1f",
+            "posZ": "-1f",
+            "negZ": "-1f",
+            "constrain_to": "-1",
+            "constrain_from": "-1",
+            "weight": 1,
+            "valid_neighbours": [
+                [
+                    "p-1"
+                ],
+                [
+                    "p-1"
+                ],
+                [
+                    "p-1"
+                ],
+                [
+                    "p-1"
+                ]
+            ]
+        }
+    ]
+}
