@@ -341,11 +341,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collapser: {fileID: 1921797561}
   start: {x: 1, y: 1}
-  end: {x: 20, y: 25}
+  end: {x: 9, y: 9}
   waypoints:
   - {x: 5, y: 5}
-  - {x: 15, y: 10}
-  - {x: 22, y: 29}
 --- !u!114 &1300104243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapser: {fileID: 1921797561}
+  settings: {fileID: 1921797559}
 --- !u!4 &1300104244
 Transform:
   m_ObjectHideFlags: 0
@@ -404,8 +403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 102f241387e8eb34cb51a0f04d270c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 30
-  z: 30
+  x: 11
+  z: 11
   scale: 1
   speed: 0.1
   useWalker: 1

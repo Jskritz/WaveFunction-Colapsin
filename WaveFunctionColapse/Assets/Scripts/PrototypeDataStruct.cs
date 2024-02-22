@@ -14,7 +14,7 @@ public struct PrototypeDataStruct
     public bool Walkable;
     public string constrain_to;
     public string constrain_from;
-    public int weight;
+    public float weight;
     public List<List<string>> valid_neighbours;
     public string prototype_name;
 }

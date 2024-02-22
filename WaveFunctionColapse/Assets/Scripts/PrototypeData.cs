@@ -31,7 +31,6 @@ public class PrototypeData : ScriptableObject
             Prototypes.Add(new Prototype(prototypeData));
         }
         Debug.Log("Added prototypes");
-
     }
     
 

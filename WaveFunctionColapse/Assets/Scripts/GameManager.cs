@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     private RandomWalker walker;
 
-    public Camera Camera;
+    public WaveSettings settings;
 
     //public GameObject slot;
     void Awake(){
@@ -20,11 +20,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var m_camera = Camera.main;
         // set the camera to the right place
-        Camera.transform.position = new Vector3(
-            collapser.settings.x / 2,
+        m_camera.transform.position = new Vector3(
+            (float)settings.x / 2,
             10,
-            collapser.settings.z / 2);
+            
+            (float)settings.z / 2);
         
         RandomWalker walker= GetComponent<RandomWalker>();
         //GenerateGrid(50);

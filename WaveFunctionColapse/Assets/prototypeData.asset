@@ -15,7 +15,7 @@ MonoBehaviour:
   Prototypes:
   - id: p0
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 0
@@ -33,15 +33,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -61,15 +64,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -89,15 +95,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -117,22 +126,26 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -6658133839658692399, guid: feaacb18a23fd0a4ca4910e7791fcbd8, type: 3}
+    mesh: {fileID: -6658133839658692399, guid: bcb7cf507718442928c16dfd7c627456, type: 3}
+    meshName: wfc_module_0
   - id: p1
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 0
@@ -150,15 +163,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -178,15 +194,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -206,15 +225,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -234,22 +256,26 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -6658133839658692399, guid: feaacb18a23fd0a4ca4910e7791fcbd8, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -6658133839658692399, guid: bcb7cf507718442928c16dfd7c627456, type: 3}
+    meshName: wfc_module_0
   - id: p2
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 0
@@ -267,15 +293,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -295,15 +324,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -323,15 +355,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -351,22 +386,26 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -6658133839658692399, guid: feaacb18a23fd0a4ca4910e7791fcbd8, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -6658133839658692399, guid: bcb7cf507718442928c16dfd7c627456, type: 3}
+    meshName: wfc_module_0
   - id: p3
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 0
@@ -384,15 +423,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -412,15 +454,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -440,15 +485,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -468,22 +516,26 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -6658133839658692399, guid: feaacb18a23fd0a4ca4910e7791fcbd8, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -6658133839658692399, guid: bcb7cf507718442928c16dfd7c627456, type: 3}
+    meshName: wfc_module_0
   - id: p4
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 1
@@ -501,8 +553,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -529,15 +581,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -545,23 +600,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p11
-      - p15
       - p19
-      - p20
-      - p24
       - p28
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
       - p60
-      - p67
       - p71
-      - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -569,52 +612,29 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 2134597060920160712, guid: b729e5e94d02b5f438d5d7d50ee2ab58, type: 3}
+    mesh: {fileID: 2134597060920160712, guid: 42037280218324bb59afd516c920a10f, type: 3}
+    meshName: wfc_module_1
   - id: p5
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 2
       validNeighbours:
       - p5
-      - p8
-      - p12
       - p16
-      - p21
-      - p25
       - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p57
       - p61
-      - p64
       - p68
-      - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -622,21 +642,9 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 1
@@ -658,15 +666,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -686,8 +697,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -697,11 +708,12 @@ MonoBehaviour:
       - p75
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 2134597060920160712, guid: b729e5e94d02b5f438d5d7d50ee2ab58, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 2134597060920160712, guid: 42037280218324bb59afd516c920a10f, type: 3}
+    meshName: wfc_module_1
   - id: p6
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 0
@@ -719,15 +731,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -747,8 +762,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -763,21 +778,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
@@ -787,50 +790,27 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p6
-      - p9
-      - p13
       - p17
-      - p22
-      - p26
       - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p58
       - p62
-      - p65
       - p69
-      - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 2134597060920160712, guid: b729e5e94d02b5f438d5d7d50ee2ab58, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 2134597060920160712, guid: 42037280218324bb59afd516c920a10f, type: 3}
+    meshName: wfc_module_1
   - id: p7
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
@@ -840,23 +820,11 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p7
-      - p10
-      - p14
       - p18
-      - p23
-      - p27
       - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p59
       - p63
-      - p66
       - p70
-      - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
@@ -876,8 +844,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -904,19 +872,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 2134597060920160712, guid: b729e5e94d02b5f438d5d7d50ee2ab58, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 2134597060920160712, guid: 42037280218324bb59afd516c920a10f, type: 3}
+    meshName: wfc_module_1
   - id: p8
     walkable: 0
     weight: 1
@@ -937,8 +909,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -952,53 +924,29 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
       - p9
-      - p13
-      - p17
-      - p20
       - p24
-      - p28
       - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
       - p60
       - p65
-      - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p7
       - p10
@@ -1013,8 +961,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -1025,32 +973,21 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 7245586586017264944, guid: eda9e81a4ab65d948934db41d5740123, type: 3}
+    mesh: {fileID: 7245586586017264944, guid: b1f497e58c92d4f6f939a0e6e8b4818b, type: 3}
+    meshName: wfc_module_2
   - id: p9
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -1070,8 +1007,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -1083,26 +1020,14 @@ MonoBehaviour:
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p10
-      - p14
-      - p18
-      - p21
       - p25
-      - p29
       - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
       - p61
       - p66
-      - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
@@ -1122,8 +1047,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -1133,38 +1058,27 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 7245586586017264944, guid: eda9e81a4ab65d948934db41d5740123, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 7245586586017264944, guid: b1f497e58c92d4f6f939a0e6e8b4818b, type: 3}
+    meshName: wfc_module_2
   - id: p10
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p11
-      - p15
-      - p19
-      - p22
       - p26
-      - p30
       - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
       - p62
       - p67
-      - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p4
       - p8
@@ -1179,8 +1093,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -1207,8 +1121,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -1222,28 +1136,17 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 7245586586017264944, guid: eda9e81a4ab65d948934db41d5740123, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 7245586586017264944, guid: b1f497e58c92d4f6f939a0e6e8b4818b, type: 3}
+    meshName: wfc_module_2
   - id: p11
     walkable: 0
     weight: 1
@@ -1264,8 +1167,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -1277,26 +1180,14 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 0
       flipped: 0
     Forward:
@@ -1316,8 +1207,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -1329,30 +1220,19 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p8
-      - p12
-      - p16
-      - p23
       - p27
-      - p31
       - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p59
       - p63
       - p64
-      - p68
-      - p72
-      - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 7245586586017264944, guid: eda9e81a4ab65d948934db41d5740123, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 7245586586017264944, guid: b1f497e58c92d4f6f939a0e6e8b4818b, type: 3}
+    meshName: wfc_module_2
   - id: p12
     walkable: 0
     weight: 1
@@ -1373,8 +1253,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -1388,53 +1268,29 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
-      - p9
       - p13
-      - p17
       - p20
-      - p24
-      - p28
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p56
-      - p60
-      - p65
       - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p11
       - p15
-      - p19
       - p20
-      - p24
-      - p28
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
-      - p56
-      - p60
+      - p48
       - p67
-      - p71
-      - p75
       - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p7
       - p10
@@ -1449,8 +1305,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -1461,31 +1317,20 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -95003615861116100, guid: 7a480571b76bc444f8ce16cb4b007dd7, type: 3}
+    mesh: {fileID: -95003615861116100, guid: b09f126082a044e3f8694a293e4a11a7, type: 3}
+    meshName: wfc_module_3
   - id: p13
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p8
       - p12
-      - p16
       - p21
-      - p25
-      - p29
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
+      - p49
       - p64
-      - p68
-      - p72
       - p77
       symmetric: 0
       flipped: 1
@@ -1506,8 +1351,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -1519,26 +1364,14 @@ MonoBehaviour:
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p10
       - p14
-      - p18
       - p21
-      - p25
-      - p29
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p57
-      - p61
-      - p66
       - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
@@ -1558,8 +1391,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -1569,38 +1402,27 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -95003615861116100, guid: 7a480571b76bc444f8ce16cb4b007dd7, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -95003615861116100, guid: b09f126082a044e3f8694a293e4a11a7, type: 3}
+    meshName: wfc_module_3
   - id: p14
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p11
       - p15
-      - p19
       - p22
-      - p26
-      - p30
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p58
-      - p62
-      - p67
       - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p4
       - p8
@@ -1615,8 +1437,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -1643,8 +1465,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -1658,28 +1480,17 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
-      - p9
       - p13
-      - p17
       - p22
-      - p26
-      - p30
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
+      - p50
       - p65
-      - p69
-      - p73
       - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -95003615861116100, guid: 7a480571b76bc444f8ce16cb4b007dd7, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -95003615861116100, guid: b09f126082a044e3f8694a293e4a11a7, type: 3}
+    meshName: wfc_module_3
   - id: p15
     walkable: 0
     weight: 1
@@ -1700,8 +1511,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -1713,25 +1524,13 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p10
       - p14
-      - p18
       - p23
-      - p27
-      - p31
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
+      - p51
       - p66
-      - p70
-      - p74
       - p79
       symmetric: 0
       flipped: 0
@@ -1752,8 +1551,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -1765,30 +1564,19 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p8
       - p12
-      - p16
       - p23
-      - p27
-      - p31
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p59
-      - p63
-      - p64
       - p68
-      - p72
-      - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -95003615861116100, guid: 7a480571b76bc444f8ce16cb4b007dd7, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -95003615861116100, guid: b09f126082a044e3f8694a293e4a11a7, type: 3}
+    meshName: wfc_module_3
   - id: p16
     walkable: 1
     weight: 1
@@ -1809,8 +1597,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -1825,21 +1613,9 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 1
@@ -1849,23 +1625,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p11
-      - p15
       - p19
-      - p20
-      - p24
       - p28
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
       - p60
-      - p67
       - p71
-      - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -1885,8 +1649,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -1897,7 +1661,8 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -2356514533307152743, guid: d1132cc7ad6ab5d4c82a9d16deb5b9e1, type: 3}
+    mesh: {fileID: -2356514533307152743, guid: a549a222c375a436ca7539ccb76b42de, type: 3}
+    meshName: wfc_module_4
   - id: p17
     walkable: 1
     weight: 1
@@ -1906,23 +1671,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p5
-      - p8
-      - p12
       - p16
-      - p21
-      - p25
       - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p57
       - p61
-      - p64
       - p68
-      - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -1942,8 +1695,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -1958,21 +1711,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
@@ -1994,8 +1735,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -2005,8 +1746,9 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -2356514533307152743, guid: d1132cc7ad6ab5d4c82a9d16deb5b9e1, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -2356514533307152743, guid: a549a222c375a436ca7539ccb76b42de, type: 3}
+    meshName: wfc_module_4
   - id: p18
     walkable: 1
     weight: 1
@@ -2015,21 +1757,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
@@ -2051,8 +1781,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -2079,8 +1809,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -2095,27 +1825,16 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p6
-      - p9
-      - p13
       - p17
-      - p22
-      - p26
       - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p58
       - p62
-      - p65
       - p69
-      - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -2356514533307152743, guid: d1132cc7ad6ab5d4c82a9d16deb5b9e1, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -2356514533307152743, guid: a549a222c375a436ca7539ccb76b42de, type: 3}
+    meshName: wfc_module_4
   - id: p19
     walkable: 1
     weight: 1
@@ -2136,8 +1855,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -2152,23 +1871,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p10
-      - p14
       - p18
-      - p23
-      - p27
       - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p59
       - p63
-      - p66
       - p70
-      - p74
-      - p79
       symmetric: 0
       flipped: 0
     Forward:
@@ -2188,8 +1895,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -2204,57 +1911,34 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -2356514533307152743, guid: d1132cc7ad6ab5d4c82a9d16deb5b9e1, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -2356514533307152743, guid: a549a222c375a436ca7539ccb76b42de, type: 3}
+    meshName: wfc_module_4
   - id: p20
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p8
       - p12
-      - p16
       - p21
-      - p25
-      - p29
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
+      - p49
       - p64
-      - p68
-      - p72
       - p77
       symmetric: 0
       flipped: 1
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -2269,15 +1953,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -2297,43 +1984,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
-      - p8
       - p12
-      - p16
       - p23
-      - p27
-      - p31
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p59
-      - p63
-      - p64
       - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -8542192367187273013, guid: 5ac5947cceeaaf44ca46c7bba747b80c, type: 3}
+    mesh: {fileID: -8542192367187273013, guid: f43cee00cb21a400da5647eca5f1f84c, type: 3}
+    meshName: wfc_module_5
   - id: p21
     walkable: 0
     weight: 1
@@ -2354,39 +2033,30 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p9
       - p13
-      - p17
       - p20
-      - p24
-      - p28
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p56
-      - p60
-      - p65
       - p69
-      - p73
-      - p76
       symmetric: 0
       flipped: 1
     Forward:
@@ -2406,43 +2076,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p9
       - p13
-      - p17
       - p22
-      - p26
-      - p30
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
+      - p50
       - p65
-      - p69
-      - p73
       - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -8542192367187273013, guid: 5ac5947cceeaaf44ca46c7bba747b80c, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -8542192367187273013, guid: f43cee00cb21a400da5647eca5f1f84c, type: 3}
+    meshName: wfc_module_5
   - id: p22
     walkable: 0
     weight: 1
@@ -2463,68 +2125,47 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
-      - p10
       - p14
-      - p18
       - p23
-      - p27
-      - p31
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
+      - p51
       - p66
-      - p70
-      - p74
       - p79
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p10
       - p14
-      - p18
       - p21
-      - p25
-      - p29
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p57
-      - p61
-      - p66
       - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -2539,44 +2180,36 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -8542192367187273013, guid: 5ac5947cceeaaf44ca46c7bba747b80c, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -8542192367187273013, guid: f43cee00cb21a400da5647eca5f1f84c, type: 3}
+    meshName: wfc_module_5
   - id: p23
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p11
       - p15
-      - p19
       - p22
-      - p26
-      - p30
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p58
-      - p62
-      - p67
       - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
@@ -2596,38 +2229,29 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p11
       - p15
-      - p19
       - p20
-      - p24
-      - p28
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
-      - p56
-      - p60
+      - p48
       - p67
-      - p71
-      - p75
       - p76
       symmetric: 0
       flipped: 1
@@ -2648,49 +2272,41 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -8542192367187273013, guid: 5ac5947cceeaaf44ca46c7bba747b80c, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -8542192367187273013, guid: f43cee00cb21a400da5647eca5f1f84c, type: 3}
+    meshName: wfc_module_5
   - id: p24
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -2705,15 +2321,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -2733,43 +2352,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
       - p8
-      - p12
-      - p16
-      - p23
       - p27
-      - p31
       - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p59
       - p63
       - p64
-      - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -806620127682620377, guid: 11cb96828243ceb4a967f23d708147bc, type: 3}
+    mesh: {fileID: -806620127682620377, guid: 71ec2b2974b0e4b7b9a838be8e87b920, type: 3}
+    meshName: wfc_module_6
   - id: p25
     walkable: 0
     weight: 1
@@ -2790,39 +2401,30 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p9
-      - p13
-      - p17
-      - p20
       - p24
-      - p28
       - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
       - p60
       - p65
-      - p69
-      - p73
-      - p76
       symmetric: 0
       flipped: 1
     Forward:
@@ -2842,43 +2444,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -806620127682620377, guid: 11cb96828243ceb4a967f23d708147bc, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -806620127682620377, guid: 71ec2b2974b0e4b7b9a838be8e87b920, type: 3}
+    meshName: wfc_module_6
   - id: p26
     walkable: 0
     weight: 1
@@ -2899,68 +2493,47 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p10
-      - p14
-      - p18
-      - p21
       - p25
-      - p29
       - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
       - p61
       - p66
-      - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -2975,44 +2548,36 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -806620127682620377, guid: 11cb96828243ceb4a967f23d708147bc, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -806620127682620377, guid: 71ec2b2974b0e4b7b9a838be8e87b920, type: 3}
+    meshName: wfc_module_6
   - id: p27
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p11
-      - p15
-      - p19
-      - p22
       - p26
-      - p30
       - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
       - p62
       - p67
-      - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
@@ -3032,39 +2597,30 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -3084,19 +2640,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -806620127682620377, guid: 11cb96828243ceb4a967f23d708147bc, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -806620127682620377, guid: 71ec2b2974b0e4b7b9a838be8e87b920, type: 3}
+    meshName: wfc_module_6
   - id: p28
     walkable: 1
     weight: 1
@@ -3105,23 +2665,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p5
-      - p8
-      - p12
       - p16
-      - p21
-      - p25
       - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p57
       - p61
-      - p64
       - p68
-      - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -3141,15 +2689,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -3169,15 +2720,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -3185,27 +2739,16 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 2989691149580656569, guid: 6abc03572e2e3d64b963004db6bc5f9e, type: 3}
+    mesh: {fileID: 2989691149580656569, guid: 2d86e211af0694cb78b7f3bb07fb6f4d, type: 3}
+    meshName: wfc_module_7
   - id: p29
     walkable: 1
     weight: 1
@@ -3226,15 +2769,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -3242,21 +2788,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 0
@@ -3278,15 +2812,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -3294,27 +2831,16 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p9
-      - p13
       - p17
-      - p22
-      - p26
       - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p58
       - p62
-      - p65
       - p69
-      - p73
-      - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 2989691149580656569, guid: 6abc03572e2e3d64b963004db6bc5f9e, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 2989691149580656569, guid: 2d86e211af0694cb78b7f3bb07fb6f4d, type: 3}
+    meshName: wfc_module_7
   - id: p30
     walkable: 1
     weight: 1
@@ -3335,15 +2861,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -3351,23 +2880,11 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p7
-      - p10
-      - p14
       - p18
-      - p23
-      - p27
       - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p59
       - p63
-      - p66
       - p70
-      - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
@@ -3375,21 +2892,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
@@ -3411,19 +2916,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 2989691149580656569, guid: 6abc03572e2e3d64b963004db6bc5f9e, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 2989691149580656569, guid: 2d86e211af0694cb78b7f3bb07fb6f4d, type: 3}
+    meshName: wfc_module_7
   - id: p31
     walkable: 1
     weight: 1
@@ -3432,21 +2941,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
@@ -3468,15 +2965,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -3484,23 +2984,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p11
-      - p15
       - p19
-      - p20
-      - p24
       - p28
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
       - p60
-      - p67
       - p71
-      - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -3520,22 +3008,26 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 2989691149580656569, guid: 6abc03572e2e3d64b963004db6bc5f9e, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 2989691149580656569, guid: 2d86e211af0694cb78b7f3bb07fb6f4d, type: 3}
+    meshName: wfc_module_7
   - id: p32
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 1
@@ -3553,8 +3045,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -3581,8 +3073,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -3609,8 +3101,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -3637,8 +3129,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -3649,10 +3141,11 @@ MonoBehaviour:
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 6529827311631542158, guid: 318bc2faa90c02e43b24b2cd033babbe, type: 3}
+    mesh: {fileID: 6529827311631542158, guid: f7fafc77817c1452fa982014587e4f96, type: 3}
+    meshName: wfc_module_8
   - id: p33
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 1
@@ -3670,8 +3163,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -3698,8 +3191,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -3726,8 +3219,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -3754,8 +3247,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -3765,11 +3258,12 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 6529827311631542158, guid: 318bc2faa90c02e43b24b2cd033babbe, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 6529827311631542158, guid: f7fafc77817c1452fa982014587e4f96, type: 3}
+    meshName: wfc_module_8
   - id: p34
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 1
@@ -3787,8 +3281,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -3815,8 +3309,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -3843,8 +3337,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -3871,8 +3365,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -3882,11 +3376,12 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 6529827311631542158, guid: 318bc2faa90c02e43b24b2cd033babbe, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 6529827311631542158, guid: f7fafc77817c1452fa982014587e4f96, type: 3}
+    meshName: wfc_module_8
   - id: p35
     walkable: 1
-    weight: 1
+    weight: 2
     Left:
       walkable: 0
       connector: 1
@@ -3904,8 +3399,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -3932,8 +3427,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -3960,8 +3455,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -3988,8 +3483,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -3999,8 +3494,9 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 6529827311631542158, guid: 318bc2faa90c02e43b24b2cd033babbe, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 6529827311631542158, guid: f7fafc77817c1452fa982014587e4f96, type: 3}
+    meshName: wfc_module_8
   - id: p36
     walkable: 0
     weight: 1
@@ -4021,8 +3517,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -4034,7 +3530,7 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -4049,116 +3545,72 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
       - p8
-      - p12
-      - p16
-      - p23
       - p27
-      - p31
       - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p59
       - p63
       - p64
-      - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 2004840817085538438, guid: 29abf3ef25a4fc64ab8a0744b5706ddd, type: 3}
+    mesh: {fileID: 2004840817085538438, guid: c8c8deff4448c4d1c9cab2c5ef9110d3, type: 3}
+    meshName: wfc_module_9
   - id: p37
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
       - p9
-      - p13
-      - p17
-      - p20
       - p24
-      - p28
       - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
       - p60
       - p65
-      - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
@@ -4178,20 +3630,23 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p7
       - p10
@@ -4206,8 +3661,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -4217,8 +3672,9 @@ MonoBehaviour:
       - p75
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 2004840817085538438, guid: 29abf3ef25a4fc64ab8a0744b5706ddd, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 2004840817085538438, guid: c8c8deff4448c4d1c9cab2c5ef9110d3, type: 3}
+    meshName: wfc_module_9
   - id: p38
     walkable: 0
     weight: 1
@@ -4239,20 +3695,23 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p4
       - p8
@@ -4267,8 +3726,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -4280,103 +3739,56 @@ MonoBehaviour:
       flipped: 1
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p10
-      - p14
-      - p18
-      - p21
       - p25
-      - p29
       - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
       - p61
       - p66
-      - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 2004840817085538438, guid: 29abf3ef25a4fc64ab8a0744b5706ddd, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 2004840817085538438, guid: c8c8deff4448c4d1c9cab2c5ef9110d3, type: 3}
+    meshName: wfc_module_9
   - id: p39
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p11
-      - p15
-      - p19
-      - p22
       - p26
-      - p30
       - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
       - p62
       - p67
-      - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
@@ -4396,8 +3808,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -4409,7 +3821,7 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -4424,19 +3836,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 2004840817085538438, guid: 29abf3ef25a4fc64ab8a0744b5706ddd, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 2004840817085538438, guid: c8c8deff4448c4d1c9cab2c5ef9110d3, type: 3}
+    meshName: wfc_module_9
   - id: p40
     walkable: 0
     weight: 1
@@ -4457,8 +3873,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -4470,7 +3886,7 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -4485,38 +3901,29 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p11
       - p15
-      - p19
       - p20
-      - p24
-      - p28
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
-      - p56
-      - p60
+      - p48
       - p67
-      - p71
-      - p75
       - p76
       symmetric: 0
       flipped: 1
@@ -4524,52 +3931,29 @@ MonoBehaviour:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
-      - p8
       - p12
-      - p16
       - p23
-      - p27
-      - p31
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p59
-      - p63
-      - p64
       - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -1854085993950015164, guid: d94a418454ff5c74bba7b2f2b55bc716, type: 3}
+    mesh: {fileID: -1854085993950015164, guid: 64f8cef72e3404ba0a0a81c5a611a4c9, type: 3}
+    meshName: wfc_module_10
   - id: p41
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p8
       - p12
-      - p16
       - p21
-      - p25
-      - p29
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
+      - p49
       - p64
-      - p68
-      - p72
       - p77
       symmetric: 0
       flipped: 1
@@ -4577,24 +3961,12 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
-      - p9
       - p13
-      - p17
       - p20
-      - p24
-      - p28
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p56
-      - p60
-      - p65
       - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
@@ -4614,20 +3986,23 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p7
       - p10
@@ -4642,8 +4017,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -4653,8 +4028,9 @@ MonoBehaviour:
       - p75
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -1854085993950015164, guid: d94a418454ff5c74bba7b2f2b55bc716, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -1854085993950015164, guid: 64f8cef72e3404ba0a0a81c5a611a4c9, type: 3}
+    meshName: wfc_module_10
   - id: p42
     walkable: 0
     weight: 1
@@ -4675,20 +4051,23 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p4
       - p8
@@ -4703,8 +4082,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -4716,102 +4095,55 @@ MonoBehaviour:
       flipped: 1
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p10
       - p14
-      - p18
       - p21
-      - p25
-      - p29
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p57
-      - p61
-      - p66
       - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
-      - p9
       - p13
-      - p17
       - p22
-      - p26
-      - p30
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
+      - p50
       - p65
-      - p69
-      - p73
       - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -1854085993950015164, guid: d94a418454ff5c74bba7b2f2b55bc716, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -1854085993950015164, guid: 64f8cef72e3404ba0a0a81c5a611a4c9, type: 3}
+    meshName: wfc_module_10
   - id: p43
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p11
       - p15
-      - p19
       - p22
-      - p26
-      - p30
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p58
-      - p62
-      - p67
       - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
-      - p10
       - p14
-      - p18
       - p23
-      - p27
-      - p31
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
+      - p51
       - p66
-      - p70
-      - p74
       - p79
       symmetric: 1
       flipped: 0
@@ -4832,8 +4164,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -4845,7 +4177,7 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -4860,814 +4192,702 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -1854085993950015164, guid: d94a418454ff5c74bba7b2f2b55bc716, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -1854085993950015164, guid: 64f8cef72e3404ba0a0a81c5a611a4c9, type: 3}
+    meshName: wfc_module_10
   - id: p44
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
-      validNeighbours:
-      - p5
-      - p8
-      - p12
-      - p16
-      - p21
-      - p25
-      - p29
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
-      - p64
-      - p68
-      - p72
-      - p77
-      symmetric: 0
-      flipped: 1
-    Right:
-      walkable: 0
       connector: 1
       validNeighbours:
-      - p5
+      - p6
       - p9
+      - p10
       - p13
+      - p14
       - p17
-      - p20
-      - p24
-      - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
+      - p18
+      - p32
+      - p33
+      - p34
+      - p35
+      - p38
+      - p42
+      - p46
+      - p50
+      - p54
       - p65
+      - p66
       - p69
+      - p70
       - p73
-      - p76
+      - p74
       symmetric: 1
       flipped: 0
-    Forward:
+    Right:
       walkable: 0
-      connector: 0
+      connector: 3
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p7
+      - p6
+      - p21
       - p22
-      - p23
+      - p25
       - p26
-      - p27
+      - p29
       - p30
-      - p31
-      - p39
-      - p43
+      - p38
+      - p42
       - p46
       - p50
-      - p55
+      - p57
       - p58
-      - p59
+      - p61
       - p62
-      - p63
+      - p77
       - p78
-      - p79
-      symmetric: 1
-      flipped: 0
-    Back:
-      walkable: 0
-      connector: 2
-      validNeighbours:
-      - p7
-      - p10
-      - p11
-      - p14
-      - p15
-      - p18
-      - p19
-      - p32
-      - p33
-      - p34
-      - p35
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p66
-      - p67
-      - p70
-      - p71
-      - p74
-      - p75
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
+    Forward:
+      walkable: 0
+      connector: 4
+      validNeighbours:
+      - p15
+      - p20
+      - p40
+      - p48
+      - p67
+      - p76
+      symmetric: 0
+      flipped: 1
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p8
+      - p27
+      - p36
+      - p52
+      - p63
+      - p64
+      symmetric: 1
+      flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 7735773284042497158, guid: eeb8ff86ef3697f468403919f5a08d47, type: 3}
+    mesh: {fileID: 7735773284042497158, guid: 65339a81d70c146b08205820bb8b31f9, type: 3}
+    meshName: wfc_module_11
   - id: p45
     walkable: 0
     weight: 1
     Left:
       walkable: 0
+      connector: 4
+      validNeighbours:
+      - p12
+      - p21
+      - p41
+      - p49
+      - p64
+      - p77
+      symmetric: 0
+      flipped: 1
+    Right:
+      walkable: 0
+      connector: 1
+      validNeighbours:
+      - p9
+      - p24
+      - p37
+      - p53
+      - p60
+      - p65
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
       connector: 0
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p4
-      - p20
+      - p7
+      - p22
       - p23
-      - p24
+      - p26
       - p27
-      - p28
+      - p30
       - p31
-      - p36
-      - p40
+      - p39
+      - p43
       - p47
       - p51
-      - p52
-      - p56
+      - p58
       - p59
-      - p60
+      - p62
       - p63
-      - p76
+      - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    Right:
+    Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
-      - p8
+      - p7
+      - p10
       - p11
-      - p12
+      - p14
       - p15
-      - p16
+      - p18
       - p19
       - p32
       - p33
       - p34
       - p35
-      - p36
-      - p40
+      - p39
+      - p43
       - p47
       - p51
-      - p52
-      - p64
+      - p55
+      - p66
       - p67
-      - p68
+      - p70
       - p71
-      - p72
+      - p74
       - p75
       symmetric: 0
-      flipped: 1
-    Forward:
-      walkable: 0
-      connector: 2
-      validNeighbours:
-      - p6
-      - p10
-      - p14
-      - p18
-      - p21
-      - p25
-      - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
-      - p74
-      - p77
-      symmetric: 0
       flipped: 0
-    Back:
-      walkable: 0
-      connector: 1
-      validNeighbours:
-      - p6
-      - p9
-      - p13
-      - p17
-      - p22
-      - p26
-      - p30
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
-      - p65
-      - p69
-      - p73
-      - p78
-      symmetric: 1
-      flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 7735773284042497158, guid: eeb8ff86ef3697f468403919f5a08d47, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 7735773284042497158, guid: 65339a81d70c146b08205820bb8b31f9, type: 3}
+    meshName: wfc_module_11
   - id: p46
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
-      validNeighbours:
-      - p7
-      - p11
-      - p15
-      - p19
-      - p22
-      - p26
-      - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
-      - p75
-      - p78
-      symmetric: 0
-      flipped: 0
-    Right:
-      walkable: 0
       connector: 0
-      validNeighbours:
-      - p7
-      - p10
-      - p14
-      - p18
-      - p23
-      - p27
-      - p31
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
-      - p66
-      - p70
-      - p74
-      - p79
-      symmetric: 1
-      flipped: 0
-    Forward:
-      walkable: 0
-      connector: 1
-      validNeighbours:
-      - p5
-      - p8
-      - p9
-      - p12
-      - p13
-      - p16
-      - p17
-      - p32
-      - p33
-      - p34
-      - p35
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p64
-      - p65
-      - p68
-      - p69
-      - p72
-      - p73
-      symmetric: 1
-      flipped: 0
-    Back:
-      walkable: 0
-      connector: 2
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p5
+      - p4
       - p20
-      - p21
+      - p23
       - p24
-      - p25
+      - p27
       - p28
-      - p29
-      - p37
-      - p41
+      - p31
+      - p36
+      - p40
       - p44
       - p48
-      - p53
       - p56
-      - p57
+      - p59
       - p60
-      - p61
+      - p63
       - p76
-      - p77
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 4
+      validNeighbours:
+      - p4
+      - p8
+      - p11
+      - p12
+      - p15
+      - p16
+      - p19
+      - p32
+      - p33
+      - p34
+      - p35
+      - p36
+      - p40
+      - p44
+      - p48
+      - p52
+      - p64
+      - p67
+      - p68
+      - p71
+      - p72
+      - p75
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 7735773284042497158, guid: eeb8ff86ef3697f468403919f5a08d47, type: 3}
+    Forward:
+      walkable: 0
+      connector: 3
+      validNeighbours:
+      - p10
+      - p25
+      - p38
+      - p54
+      - p61
+      - p66
+      symmetric: 0
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 1
+      validNeighbours:
+      - p13
+      - p22
+      - p42
+      - p50
+      - p65
+      - p78
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 7735773284042497158, guid: 65339a81d70c146b08205820bb8b31f9, type: 3}
+    meshName: wfc_module_11
   - id: p47
     walkable: 0
     weight: 1
     Left:
       walkable: 0
+      connector: 3
+      validNeighbours:
+      - p11
+      - p26
+      - p39
+      - p55
+      - p62
+      - p67
+      symmetric: 0
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p14
+      - p23
+      - p43
+      - p51
+      - p66
+      - p79
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
       connector: 1
       validNeighbours:
-      - p6
+      - p5
+      - p8
       - p9
-      - p10
+      - p12
       - p13
-      - p14
+      - p16
       - p17
-      - p18
       - p32
       - p33
       - p34
       - p35
-      - p38
-      - p42
+      - p37
+      - p41
       - p45
       - p49
-      - p54
+      - p53
+      - p64
       - p65
-      - p66
+      - p68
       - p69
-      - p70
+      - p72
       - p73
-      - p74
       symmetric: 1
       flipped: 0
-    Right:
+    Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p6
+      - p5
+      - p20
       - p21
-      - p22
+      - p24
       - p25
-      - p26
+      - p28
       - p29
-      - p30
-      - p38
-      - p42
+      - p37
+      - p41
       - p45
       - p49
-      - p54
-      - p57
-      - p58
-      - p61
-      - p62
-      - p77
-      - p78
-      symmetric: 0
-      flipped: 0
-    Forward:
-      walkable: 0
-      connector: 2
-      validNeighbours:
-      - p4
-      - p11
-      - p15
-      - p19
-      - p20
-      - p24
-      - p28
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
       - p56
+      - p57
       - p60
-      - p67
-      - p71
-      - p75
+      - p61
       - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    Back:
-      walkable: 0
-      connector: 0
-      validNeighbours:
-      - p4
-      - p8
-      - p12
-      - p16
-      - p23
-      - p27
-      - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
-      - p72
-      - p79
-      symmetric: 1
-      flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 7735773284042497158, guid: eeb8ff86ef3697f468403919f5a08d47, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 7735773284042497158, guid: 65339a81d70c146b08205820bb8b31f9, type: 3}
+    meshName: wfc_module_11
   - id: p48
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
-      validNeighbours:
-      - p5
-      - p8
-      - p12
-      - p16
-      - p21
-      - p25
-      - p29
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
-      - p64
-      - p68
-      - p72
-      - p77
-      symmetric: 0
-      flipped: 1
-    Right:
-      walkable: 0
       connector: 1
       validNeighbours:
-      - p5
+      - p6
       - p9
+      - p10
       - p13
+      - p14
       - p17
-      - p20
-      - p24
-      - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
+      - p18
+      - p32
+      - p33
+      - p34
+      - p35
+      - p38
+      - p42
+      - p46
+      - p50
+      - p54
       - p65
+      - p66
       - p69
+      - p70
       - p73
-      - p76
+      - p74
       symmetric: 1
       flipped: 0
-    Forward:
+    Right:
       walkable: 0
-      connector: 0
+      connector: 4
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p7
+      - p6
+      - p21
       - p22
-      - p23
+      - p25
       - p26
-      - p27
+      - p29
       - p30
-      - p31
-      - p39
-      - p43
+      - p38
+      - p42
       - p46
       - p50
-      - p55
+      - p57
       - p58
-      - p59
+      - p61
       - p62
-      - p63
+      - p77
       - p78
-      - p79
-      symmetric: 1
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 0
       flipped: 0
-    Back:
+    Forward:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p7
-      - p10
-      - p11
-      - p14
-      - p15
-      - p18
+      - p4
       - p19
-      - p32
-      - p33
-      - p34
-      - p35
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p66
-      - p67
-      - p70
+      - p28
+      - p52
+      - p60
       - p71
-      - p74
-      - p75
       symmetric: 0
+      flipped: 1
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p12
+      - p23
+      - p40
+      - p44
+      - p59
+      - p68
+      symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -2255451954632290152, guid: 9b3f2b56ab34e2b40bb2a3a9959bdb56, type: 3}
+    mesh: {fileID: -2255451954632290152, guid: 87da4b8f2504f46b095ec365dbbb8bef, type: 3}
+    meshName: wfc_module_12
   - id: p49
     walkable: 0
     weight: 1
     Left:
       walkable: 0
+      connector: 2
+      validNeighbours:
+      - p5
+      - p16
+      - p29
+      - p53
+      - p61
+      - p68
+      symmetric: 0
+      flipped: 1
+    Right:
+      walkable: 0
+      connector: 1
+      validNeighbours:
+      - p13
+      - p20
+      - p41
+      - p45
+      - p56
+      - p69
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
       connector: 0
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p4
-      - p20
+      - p7
+      - p22
       - p23
-      - p24
+      - p26
       - p27
-      - p28
+      - p30
       - p31
-      - p36
-      - p40
+      - p39
+      - p43
       - p47
       - p51
-      - p52
-      - p56
+      - p58
       - p59
-      - p60
+      - p62
       - p63
-      - p76
+      - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    Right:
+    Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p8
+      - p7
+      - p10
       - p11
-      - p12
+      - p14
       - p15
-      - p16
+      - p18
       - p19
       - p32
       - p33
       - p34
       - p35
-      - p36
-      - p40
+      - p39
+      - p43
       - p47
       - p51
-      - p52
-      - p64
+      - p55
+      - p66
       - p67
-      - p68
+      - p70
       - p71
-      - p72
+      - p74
       - p75
       symmetric: 0
-      flipped: 1
-    Forward:
-      walkable: 0
-      connector: 2
-      validNeighbours:
-      - p6
-      - p10
-      - p14
-      - p18
-      - p21
-      - p25
-      - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
-      - p74
-      - p77
-      symmetric: 0
       flipped: 0
-    Back:
-      walkable: 0
-      connector: 1
-      validNeighbours:
-      - p6
-      - p9
-      - p13
-      - p17
-      - p22
-      - p26
-      - p30
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
-      - p65
-      - p69
-      - p73
-      - p78
-      symmetric: 1
-      flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -2255451954632290152, guid: 9b3f2b56ab34e2b40bb2a3a9959bdb56, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -2255451954632290152, guid: 87da4b8f2504f46b095ec365dbbb8bef, type: 3}
+    meshName: wfc_module_12
   - id: p50
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
-      validNeighbours:
-      - p7
-      - p11
-      - p15
-      - p19
-      - p22
-      - p26
-      - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
-      - p75
-      - p78
-      symmetric: 0
-      flipped: 0
-    Right:
-      walkable: 0
       connector: 0
-      validNeighbours:
-      - p7
-      - p10
-      - p14
-      - p18
-      - p23
-      - p27
-      - p31
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
-      - p66
-      - p70
-      - p74
-      - p79
-      symmetric: 1
-      flipped: 0
-    Forward:
-      walkable: 0
-      connector: 1
-      validNeighbours:
-      - p5
-      - p8
-      - p9
-      - p12
-      - p13
-      - p16
-      - p17
-      - p32
-      - p33
-      - p34
-      - p35
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p64
-      - p65
-      - p68
-      - p69
-      - p72
-      - p73
-      symmetric: 1
-      flipped: 0
-    Back:
-      walkable: 0
-      connector: 2
       validNeighbours:
       - p0
       - p1
       - p2
       - p3
-      - p5
+      - p4
       - p20
-      - p21
+      - p23
       - p24
-      - p25
+      - p27
       - p28
-      - p29
-      - p37
-      - p41
+      - p31
+      - p36
+      - p40
       - p44
       - p48
-      - p53
       - p56
-      - p57
+      - p59
       - p60
-      - p61
+      - p63
       - p76
-      - p77
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 2
+      validNeighbours:
+      - p4
+      - p8
+      - p11
+      - p12
+      - p15
+      - p16
+      - p19
+      - p32
+      - p33
+      - p34
+      - p35
+      - p36
+      - p40
+      - p44
+      - p48
+      - p52
+      - p64
+      - p67
+      - p68
+      - p71
+      - p72
+      - p75
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -2255451954632290152, guid: 9b3f2b56ab34e2b40bb2a3a9959bdb56, type: 3}
+    Forward:
+      walkable: 0
+      connector: 4
+      validNeighbours:
+      - p14
+      - p21
+      - p42
+      - p46
+      - p57
+      - p70
+      symmetric: 0
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 1
+      validNeighbours:
+      - p6
+      - p17
+      - p30
+      - p54
+      - p62
+      - p69
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -2255451954632290152, guid: 87da4b8f2504f46b095ec365dbbb8bef, type: 3}
+    meshName: wfc_module_12
   - id: p51
     walkable: 0
     weight: 1
     Left:
       walkable: 0
+      connector: 4
+      validNeighbours:
+      - p15
+      - p22
+      - p43
+      - p47
+      - p58
+      - p71
+      symmetric: 0
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p7
+      - p18
+      - p31
+      - p55
+      - p63
+      - p70
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
       connector: 1
       validNeighbours:
-      - p6
+      - p5
+      - p8
       - p9
-      - p10
+      - p12
       - p13
-      - p14
+      - p16
       - p17
-      - p18
       - p32
       - p33
       - p34
       - p35
-      - p38
-      - p42
+      - p37
+      - p41
       - p45
       - p49
-      - p54
+      - p53
+      - p64
       - p65
-      - p66
+      - p68
       - p69
-      - p70
+      - p72
       - p73
-      - p74
       symmetric: 1
       flipped: 0
-    Right:
+    Back:
       walkable: 0
       connector: 2
       validNeighbours:
@@ -5675,76 +4895,32 @@ MonoBehaviour:
       - p1
       - p2
       - p3
-      - p6
+      - p5
+      - p20
       - p21
-      - p22
+      - p24
       - p25
-      - p26
+      - p28
       - p29
-      - p30
-      - p38
-      - p42
+      - p37
+      - p41
       - p45
       - p49
-      - p54
-      - p57
-      - p58
-      - p61
-      - p62
-      - p77
-      - p78
-      symmetric: 0
-      flipped: 0
-    Forward:
-      walkable: 0
-      connector: 2
-      validNeighbours:
-      - p4
-      - p11
-      - p15
-      - p19
-      - p20
-      - p24
-      - p28
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
       - p56
+      - p57
       - p60
-      - p67
-      - p71
-      - p75
+      - p61
       - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    Back:
-      walkable: 0
-      connector: 0
-      validNeighbours:
-      - p4
-      - p8
-      - p12
-      - p16
-      - p23
-      - p27
-      - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
-      - p72
-      - p79
-      symmetric: 1
-      flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -2255451954632290152, guid: 9b3f2b56ab34e2b40bb2a3a9959bdb56, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -2255451954632290152, guid: 87da4b8f2504f46b095ec365dbbb8bef, type: 3}
+    meshName: wfc_module_12
   - id: p52
     walkable: 0
     weight: 1
@@ -5765,8 +4941,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -5780,105 +4956,49 @@ MonoBehaviour:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p0
-      - p1
-      - p2
-      - p3
-      - p6
-      - p21
-      - p22
-      - p25
-      - p26
-      - p29
-      - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
-      - p58
-      - p61
-      - p62
-      - p77
-      - p78
       symmetric: 0
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
-      connector: 0
+      connector: 5
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 2600031661435763174, guid: d25d2870299809c40a00d102fa2ea571, type: 3}
+    mesh: {fileID: 2600031661435763174, guid: 3aa3e6b3903a14088a84b79eb18d9203, type: 3}
+    meshName: wfc_module_13
   - id: p53
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -5886,51 +5006,18 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 0
+      connector: 5
       validNeighbours:
-      - p0
-      - p1
-      - p2
-      - p3
-      - p7
-      - p22
-      - p23
-      - p26
-      - p27
-      - p30
-      - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
-      - p59
-      - p62
-      - p63
-      - p78
-      - p79
       symmetric: 1
       flipped: 0
     Back:
@@ -5950,8 +5037,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -5961,42 +5048,22 @@ MonoBehaviour:
       - p75
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 2600031661435763174, guid: d25d2870299809c40a00d102fa2ea571, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 2600031661435763174, guid: 3aa3e6b3903a14088a84b79eb18d9203, type: 3}
+    meshName: wfc_module_13
   - id: p54
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 0
+      connector: 5
       validNeighbours:
-      - p0
-      - p1
-      - p2
-      - p3
-      - p4
-      - p20
-      - p23
-      - p24
-      - p27
-      - p28
-      - p31
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
-      - p59
-      - p60
-      - p63
-      - p76
-      - p79
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p4
       - p8
@@ -6011,8 +5078,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -6027,21 +5094,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
@@ -6050,28 +5105,17 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 2600031661435763174, guid: d25d2870299809c40a00d102fa2ea571, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 2600031661435763174, guid: 3aa3e6b3903a14088a84b79eb18d9203, type: 3}
+    meshName: wfc_module_13
   - id: p55
     walkable: 0
     weight: 1
@@ -6080,47 +5124,23 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
-      connector: 0
+      connector: 5
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
@@ -6140,8 +5160,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -6153,64 +5173,32 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p0
-      - p1
-      - p2
-      - p3
-      - p5
-      - p20
-      - p21
-      - p24
-      - p25
-      - p28
-      - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
-      - p57
-      - p60
-      - p61
-      - p76
-      - p77
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 2600031661435763174, guid: d25d2870299809c40a00d102fa2ea571, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 2600031661435763174, guid: 3aa3e6b3903a14088a84b79eb18d9203, type: 3}
+    meshName: wfc_module_13
   - id: p56
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p8
       - p12
-      - p16
       - p21
-      - p25
-      - p29
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
+      - p49
       - p64
-      - p68
-      - p72
       - p77
       symmetric: 0
       flipped: 1
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -6225,15 +5213,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -6253,43 +5244,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
       - p8
-      - p12
-      - p16
-      - p23
       - p27
-      - p31
       - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p59
       - p63
       - p64
-      - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 5322083975053482588, guid: 06e56ac50bd1cd94e9c87df3918f844f, type: 3}
+    mesh: {fileID: 5322083975053482588, guid: 44cf32d32cf0d4bdcad3b8ca858e70a9, type: 3}
+    meshName: wfc_module_14
   - id: p57
     walkable: 0
     weight: 1
@@ -6310,39 +5293,30 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
       - p9
-      - p13
-      - p17
-      - p20
       - p24
-      - p28
       - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
       - p60
       - p65
-      - p69
-      - p73
-      - p76
       symmetric: 0
       flipped: 1
     Forward:
@@ -6362,43 +5336,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
-      - p9
       - p13
-      - p17
       - p22
-      - p26
-      - p30
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
+      - p50
       - p65
-      - p69
-      - p73
       - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 5322083975053482588, guid: 06e56ac50bd1cd94e9c87df3918f844f, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 5322083975053482588, guid: 44cf32d32cf0d4bdcad3b8ca858e70a9, type: 3}
+    meshName: wfc_module_14
   - id: p58
     walkable: 0
     weight: 1
@@ -6419,68 +5385,47 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
-      - p10
       - p14
-      - p18
       - p23
-      - p27
-      - p31
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
+      - p51
       - p66
-      - p70
-      - p74
       - p79
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p10
-      - p14
-      - p18
-      - p21
       - p25
-      - p29
       - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
       - p61
       - p66
-      - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -6495,44 +5440,36 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 5322083975053482588, guid: 06e56ac50bd1cd94e9c87df3918f844f, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 5322083975053482588, guid: 44cf32d32cf0d4bdcad3b8ca858e70a9, type: 3}
+    meshName: wfc_module_14
   - id: p59
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p11
-      - p15
-      - p19
-      - p22
       - p26
-      - p30
       - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
       - p62
       - p67
-      - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
@@ -6552,38 +5489,29 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p11
       - p15
-      - p19
       - p20
-      - p24
-      - p28
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
-      - p56
-      - p60
+      - p48
       - p67
-      - p71
-      - p75
       - p76
       symmetric: 0
       flipped: 1
@@ -6604,44 +5532,36 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 5322083975053482588, guid: 06e56ac50bd1cd94e9c87df3918f844f, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 5322083975053482588, guid: 44cf32d32cf0d4bdcad3b8ca858e70a9, type: 3}
+    meshName: wfc_module_14
   - id: p60
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -6661,15 +5581,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -6689,15 +5612,18 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
@@ -6705,27 +5631,16 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 3497757944289428433, guid: 247f6617c860579468d2ee688cc5fcd2, type: 3}
+    mesh: {fileID: 3497757944289428433, guid: b324da721e7e04f3e97d7a7f78e57277, type: 3}
+    meshName: wfc_module_15
   - id: p61
     walkable: 0
     weight: 1
@@ -6746,37 +5661,28 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 0
@@ -6798,43 +5704,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 3497757944289428433, guid: 247f6617c860579468d2ee688cc5fcd2, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 3497757944289428433, guid: b324da721e7e04f3e97d7a7f78e57277, type: 3}
+    meshName: wfc_module_15
   - id: p62
     walkable: 0
     weight: 1
@@ -6855,39 +5753,30 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
@@ -6895,28 +5784,16 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p0
       - p1
@@ -6931,19 +5808,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 3497757944289428433, guid: 247f6617c860579468d2ee688cc5fcd2, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 3497757944289428433, guid: b324da721e7e04f3e97d7a7f78e57277, type: 3}
+    meshName: wfc_module_15
   - id: p63
     walkable: 0
     weight: 1
@@ -6952,21 +5833,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
@@ -6988,39 +5857,30 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -7040,19 +5900,23 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 3497757944289428433, guid: 247f6617c860579468d2ee688cc5fcd2, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 3497757944289428433, guid: b324da721e7e04f3e97d7a7f78e57277, type: 3}
+    meshName: wfc_module_15
   - id: p64
     walkable: 0
     weight: 1
@@ -7073,8 +5937,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -7088,53 +5952,29 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
-      - p9
       - p13
-      - p17
       - p20
-      - p24
-      - p28
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p56
-      - p60
-      - p65
       - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
       - p11
-      - p15
-      - p19
-      - p20
       - p24
-      - p28
       - p36
-      - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p56
-      - p60
-      - p67
-      - p71
       - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p7
       - p10
@@ -7149,8 +5989,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -7161,32 +6001,21 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 3309015794698267420, guid: c717e8fa0a89e2347b19229333ccf37d, type: 3}
+    mesh: {fileID: 3309015794698267420, guid: 068f55936eba54c75a1704e9497bb78c, type: 3}
+    meshName: wfc_module_16
   - id: p65
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p5
       - p8
-      - p12
-      - p16
-      - p21
       - p25
-      - p29
       - p37
-      - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p57
-      - p61
-      - p64
-      - p68
       - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -7206,8 +6035,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -7219,26 +6048,14 @@ MonoBehaviour:
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p10
       - p14
-      - p18
       - p21
-      - p25
-      - p29
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p57
-      - p61
-      - p66
       - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
@@ -7258,8 +6075,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -7269,38 +6086,27 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 3309015794698267420, guid: c717e8fa0a89e2347b19229333ccf37d, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 3309015794698267420, guid: 068f55936eba54c75a1704e9497bb78c, type: 3}
+    meshName: wfc_module_16
   - id: p66
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p11
       - p15
-      - p19
       - p22
-      - p26
-      - p30
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p58
-      - p62
-      - p67
       - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p4
       - p8
@@ -7315,8 +6121,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -7343,8 +6149,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -7358,28 +6164,17 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
       - p9
-      - p13
-      - p17
-      - p22
       - p26
-      - p30
       - p38
-      - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p58
-      - p62
-      - p65
-      - p69
       - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 3309015794698267420, guid: c717e8fa0a89e2347b19229333ccf37d, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 3309015794698267420, guid: 068f55936eba54c75a1704e9497bb78c, type: 3}
+    meshName: wfc_module_16
   - id: p67
     walkable: 0
     weight: 1
@@ -7400,8 +6195,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -7413,26 +6208,14 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
       - p10
-      - p14
-      - p18
-      - p23
       - p27
-      - p31
       - p39
-      - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p59
-      - p63
-      - p66
-      - p70
       - p74
-      - p79
       symmetric: 0
       flipped: 0
     Forward:
@@ -7452,8 +6235,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -7465,30 +6248,19 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p4
-      - p8
       - p12
-      - p16
       - p23
-      - p27
-      - p31
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p59
-      - p63
-      - p64
       - p68
-      - p72
-      - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 3309015794698267420, guid: c717e8fa0a89e2347b19229333ccf37d, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 3309015794698267420, guid: 068f55936eba54c75a1704e9497bb78c, type: 3}
+    meshName: wfc_module_16
   - id: p68
     walkable: 0
     weight: 1
@@ -7509,8 +6281,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -7525,46 +6297,22 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p5
-      - p9
-      - p13
       - p17
-      - p20
-      - p24
       - p28
-      - p37
-      - p41
-      - p44
-      - p48
-      - p53
-      - p56
-      - p60
-      - p65
-      - p69
+      - p49
       - p73
       - p76
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p4
-      - p11
       - p15
-      - p19
       - p20
-      - p24
-      - p28
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
-      - p56
-      - p60
+      - p48
       - p67
-      - p71
-      - p75
       - p76
       symmetric: 0
       flipped: 1
@@ -7585,8 +6333,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -7597,31 +6345,20 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: 2150582767537240444, guid: c6058d38c2a0ab34bb30237fc0f77bda, type: 3}
+    mesh: {fileID: 2150582767537240444, guid: c74e11ce6a0e8474bbf7ae45a6f86d8a, type: 3}
+    meshName: wfc_module_17
   - id: p69
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p5
-      - p8
       - p12
-      - p16
       - p21
-      - p25
-      - p29
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
-      - p57
-      - p61
+      - p49
       - p64
-      - p68
-      - p72
       - p77
       symmetric: 0
       flipped: 1
@@ -7642,8 +6379,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -7658,21 +6395,9 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p6
-      - p10
-      - p14
       - p18
-      - p21
-      - p25
       - p29
-      - p38
-      - p42
-      - p45
-      - p49
-      - p54
-      - p57
-      - p61
-      - p66
-      - p70
+      - p50
       - p74
       - p77
       symmetric: 0
@@ -7694,8 +6419,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -7705,8 +6430,9 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: 2150582767537240444, guid: c6058d38c2a0ab34bb30237fc0f77bda, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 2150582767537240444, guid: c74e11ce6a0e8474bbf7ae45a6f86d8a, type: 3}
+    meshName: wfc_module_17
   - id: p70
     walkable: 0
     weight: 1
@@ -7715,28 +6441,16 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p7
-      - p11
-      - p15
       - p19
-      - p22
-      - p26
       - p30
-      - p39
-      - p43
-      - p46
-      - p50
-      - p55
-      - p58
-      - p62
-      - p67
-      - p71
+      - p51
       - p75
       - p78
       symmetric: 0
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p4
       - p8
@@ -7751,8 +6465,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -7779,8 +6493,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -7794,28 +6508,17 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p6
-      - p9
       - p13
-      - p17
       - p22
-      - p26
-      - p30
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
-      - p58
-      - p62
+      - p50
       - p65
-      - p69
-      - p73
       - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: 2150582767537240444, guid: c6058d38c2a0ab34bb30237fc0f77bda, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 2150582767537240444, guid: c74e11ce6a0e8474bbf7ae45a6f86d8a, type: 3}
+    meshName: wfc_module_17
   - id: p71
     walkable: 0
     weight: 1
@@ -7836,8 +6539,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -7851,23 +6554,11 @@ MonoBehaviour:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p7
-      - p10
       - p14
-      - p18
       - p23
-      - p27
-      - p31
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
-      - p59
-      - p63
+      - p51
       - p66
-      - p70
-      - p74
       - p79
       symmetric: 0
       flipped: 0
@@ -7888,8 +6579,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -7901,30 +6592,19 @@ MonoBehaviour:
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p4
-      - p8
-      - p12
       - p16
-      - p23
-      - p27
       - p31
-      - p36
-      - p40
-      - p47
-      - p51
-      - p52
-      - p59
-      - p63
-      - p64
-      - p68
+      - p48
       - p72
       - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: 2150582767537240444, guid: c6058d38c2a0ab34bb30237fc0f77bda, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 2150582767537240444, guid: c74e11ce6a0e8474bbf7ae45a6f86d8a, type: 3}
+    meshName: wfc_module_17
   - id: p72
     walkable: 0
     weight: 1
@@ -7945,8 +6625,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -7960,24 +6640,12 @@ MonoBehaviour:
       walkable: 0
       connector: 1
       validNeighbours:
-      - p5
       - p9
-      - p13
-      - p17
-      - p20
       - p24
-      - p28
       - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p56
       - p60
       - p65
-      - p69
-      - p73
-      - p76
       symmetric: 1
       flipped: 0
     Forward:
@@ -7985,28 +6653,16 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p11
-      - p15
       - p19
-      - p20
-      - p24
       - p28
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
       - p60
-      - p67
       - p71
-      - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p7
       - p10
@@ -8021,8 +6677,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -8033,7 +6689,8 @@ MonoBehaviour:
       symmetric: 0
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -7381192538232992969, guid: ef24c289970f7ea42839109b01750580, type: 3}
+    mesh: {fileID: -7381192538232992969, guid: 238c8b8bffab6478aa527de70e2f7d75, type: 3}
+    meshName: wfc_module_18
   - id: p73
     walkable: 0
     weight: 1
@@ -8042,23 +6699,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p5
-      - p8
-      - p12
       - p16
-      - p21
-      - p25
       - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p57
       - p61
-      - p64
       - p68
-      - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
@@ -8078,8 +6723,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -8091,26 +6736,14 @@ MonoBehaviour:
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p6
       - p10
-      - p14
-      - p18
-      - p21
       - p25
-      - p29
       - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p57
       - p61
       - p66
-      - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
@@ -8130,8 +6763,8 @@ MonoBehaviour:
       - p35
       - p39
       - p43
-      - p46
-      - p50
+      - p47
+      - p51
       - p55
       - p66
       - p67
@@ -8141,33 +6774,22 @@ MonoBehaviour:
       - p75
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -7381192538232992969, guid: ef24c289970f7ea42839109b01750580, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -7381192538232992969, guid: 238c8b8bffab6478aa527de70e2f7d75, type: 3}
+    meshName: wfc_module_18
   - id: p74
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
-      - p7
       - p11
-      - p15
-      - p19
-      - p22
       - p26
-      - p30
       - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p58
       - p62
       - p67
-      - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
@@ -8187,8 +6809,8 @@ MonoBehaviour:
       - p35
       - p36
       - p40
-      - p47
-      - p51
+      - p44
+      - p48
       - p52
       - p64
       - p67
@@ -8215,8 +6837,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -8231,27 +6853,16 @@ MonoBehaviour:
       connector: 1
       validNeighbours:
       - p6
-      - p9
-      - p13
       - p17
-      - p22
-      - p26
       - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p58
       - p62
-      - p65
       - p69
-      - p73
-      - p78
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -7381192538232992969, guid: ef24c289970f7ea42839109b01750580, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -7381192538232992969, guid: 238c8b8bffab6478aa527de70e2f7d75, type: 3}
+    meshName: wfc_module_18
   - id: p75
     walkable: 0
     weight: 1
@@ -8272,8 +6883,8 @@ MonoBehaviour:
       - p35
       - p38
       - p42
-      - p45
-      - p49
+      - p46
+      - p50
       - p54
       - p65
       - p66
@@ -8285,26 +6896,14 @@ MonoBehaviour:
       flipped: 0
     Right:
       walkable: 0
-      connector: 2
+      connector: 3
       validNeighbours:
       - p7
-      - p10
-      - p14
       - p18
-      - p23
-      - p27
       - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p59
       - p63
-      - p66
       - p70
-      - p74
-      - p79
       symmetric: 0
       flipped: 0
     Forward:
@@ -8324,8 +6923,8 @@ MonoBehaviour:
       - p35
       - p37
       - p41
-      - p44
-      - p48
+      - p45
+      - p49
       - p53
       - p64
       - p65
@@ -8339,28 +6938,17 @@ MonoBehaviour:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p4
       - p8
-      - p12
-      - p16
-      - p23
       - p27
-      - p31
       - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p59
       - p63
       - p64
-      - p68
-      - p72
-      - p79
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -7381192538232992969, guid: ef24c289970f7ea42839109b01750580, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -7381192538232992969, guid: 238c8b8bffab6478aa527de70e2f7d75, type: 3}
+    meshName: wfc_module_18
   - id: p76
     walkable: 0
     weight: 1
@@ -8369,28 +6957,16 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p5
-      - p8
-      - p12
       - p16
-      - p21
-      - p25
       - p29
-      - p37
-      - p41
-      - p44
-      - p48
       - p53
-      - p57
       - p61
-      - p64
       - p68
-      - p72
-      - p77
       symmetric: 0
       flipped: 1
     Right:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p0
       - p1
@@ -8405,15 +6981,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 0
     Forward:
@@ -8433,43 +7012,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
       connector: 0
       validNeighbours:
-      - p4
-      - p8
       - p12
-      - p16
       - p23
-      - p27
-      - p31
-      - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
       - p59
-      - p63
-      - p64
       - p68
-      - p72
-      - p79
       symmetric: 1
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    mesh: {fileID: -2212431212955668836, guid: 267f068240e0b0e4da18f15d1e601295, type: 3}
+    mesh: {fileID: -2212431212955668836, guid: bf4751a3ea6bc44869890775d45d5f1b, type: 3}
+    meshName: wfc_module_19
   - id: p77
     walkable: 0
     weight: 1
@@ -8490,39 +7061,30 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
       walkable: 0
       connector: 2
       validNeighbours:
-      - p5
-      - p9
       - p13
-      - p17
       - p20
-      - p24
-      - p28
-      - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
       - p56
-      - p60
-      - p65
       - p69
-      - p73
-      - p76
       symmetric: 0
       flipped: 1
     Forward:
@@ -8542,43 +7104,35 @@ MonoBehaviour:
       - p31
       - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
+      - p51
       - p58
       - p59
       - p62
       - p63
       - p78
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Back:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
       - p6
-      - p9
-      - p13
       - p17
-      - p22
-      - p26
       - p30
-      - p38
-      - p42
-      - p45
-      - p49
       - p54
-      - p58
       - p62
-      - p65
       - p69
-      - p73
-      - p78
       symmetric: 0
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
-    mesh: {fileID: -2212431212955668836, guid: 267f068240e0b0e4da18f15d1e601295, type: 3}
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: -2212431212955668836, guid: bf4751a3ea6bc44869890775d45d5f1b, type: 3}
+    meshName: wfc_module_19
   - id: p78
     walkable: 0
     weight: 1
@@ -8599,15 +7153,18 @@ MonoBehaviour:
       - p31
       - p36
       - p40
-      - p47
-      - p51
-      - p52
+      - p44
+      - p48
       - p56
       - p59
       - p60
       - p63
       - p76
       - p79
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Right:
@@ -8615,47 +7172,23 @@ MonoBehaviour:
       connector: 0
       validNeighbours:
       - p7
-      - p10
-      - p14
       - p18
-      - p23
-      - p27
       - p31
-      - p39
-      - p43
-      - p46
-      - p50
       - p55
-      - p59
       - p63
-      - p66
       - p70
-      - p74
-      - p79
       symmetric: 1
       flipped: 0
     Forward:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p6
-      - p10
       - p14
-      - p18
       - p21
-      - p25
-      - p29
-      - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
       - p57
-      - p61
-      - p66
       - p70
-      - p74
-      - p77
       symmetric: 0
       flipped: 0
     Back:
@@ -8675,44 +7208,36 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 0
       flipped: 1
-    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-    mesh: {fileID: -2212431212955668836, guid: 267f068240e0b0e4da18f15d1e601295, type: 3}
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: -2212431212955668836, guid: bf4751a3ea6bc44869890775d45d5f1b, type: 3}
+    meshName: wfc_module_19
   - id: p79
     walkable: 0
     weight: 1
     Left:
       walkable: 0
-      connector: 2
+      connector: 4
       validNeighbours:
-      - p7
-      - p11
       - p15
-      - p19
       - p22
-      - p26
-      - p30
-      - p39
       - p43
-      - p46
-      - p50
-      - p55
+      - p47
       - p58
-      - p62
-      - p67
       - p71
-      - p75
-      - p78
       symmetric: 0
       flipped: 0
     Right:
@@ -8732,15 +7257,18 @@ MonoBehaviour:
       - p30
       - p38
       - p42
-      - p45
-      - p49
-      - p54
+      - p46
+      - p50
       - p57
       - p58
       - p61
       - p62
       - p77
       - p78
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
     Forward:
@@ -8748,23 +7276,11 @@ MonoBehaviour:
       connector: 2
       validNeighbours:
       - p4
-      - p11
-      - p15
       - p19
-      - p20
-      - p24
       - p28
-      - p36
-      - p40
-      - p47
-      - p51
       - p52
-      - p56
       - p60
-      - p67
       - p71
-      - p75
-      - p76
       symmetric: 0
       flipped: 1
     Back:
@@ -8784,20 +7300,544 @@ MonoBehaviour:
       - p29
       - p37
       - p41
-      - p44
-      - p48
-      - p53
+      - p45
+      - p49
       - p56
       - p57
       - p60
       - p61
       - p76
       - p77
+      - p80
+      - p81
+      - p82
+      - p83
       symmetric: 1
       flipped: 0
-    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
-    mesh: {fileID: -2212431212955668836, guid: 267f068240e0b0e4da18f15d1e601295, type: 3}
-  - id: p-1
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: -2212431212955668836, guid: bf4751a3ea6bc44869890775d45d5f1b, type: 3}
+    meshName: wfc_module_19
+  - id: p80
+    walkable: 1
+    weight: 1
+    Left:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p4
+      - p20
+      - p23
+      - p24
+      - p27
+      - p28
+      - p31
+      - p36
+      - p40
+      - p44
+      - p48
+      - p56
+      - p59
+      - p60
+      - p63
+      - p76
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p6
+      - p21
+      - p22
+      - p25
+      - p26
+      - p29
+      - p30
+      - p38
+      - p42
+      - p46
+      - p50
+      - p57
+      - p58
+      - p61
+      - p62
+      - p77
+      - p78
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p7
+      - p22
+      - p23
+      - p26
+      - p27
+      - p30
+      - p31
+      - p39
+      - p43
+      - p47
+      - p51
+      - p58
+      - p59
+      - p62
+      - p63
+      - p78
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p5
+      - p20
+      - p21
+      - p24
+      - p25
+      - p28
+      - p29
+      - p37
+      - p41
+      - p45
+      - p49
+      - p56
+      - p57
+      - p60
+      - p61
+      - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    mesh: {fileID: 5457011031195527263, guid: edec40a3a268d4282b9b1e33501fd0fe, type: 3}
+    meshName: wfc_module_20
+  - id: p81
+    walkable: 1
+    weight: 1
+    Left:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p4
+      - p20
+      - p23
+      - p24
+      - p27
+      - p28
+      - p31
+      - p36
+      - p40
+      - p44
+      - p48
+      - p56
+      - p59
+      - p60
+      - p63
+      - p76
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p6
+      - p21
+      - p22
+      - p25
+      - p26
+      - p29
+      - p30
+      - p38
+      - p42
+      - p46
+      - p50
+      - p57
+      - p58
+      - p61
+      - p62
+      - p77
+      - p78
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p7
+      - p22
+      - p23
+      - p26
+      - p27
+      - p30
+      - p31
+      - p39
+      - p43
+      - p47
+      - p51
+      - p58
+      - p59
+      - p62
+      - p63
+      - p78
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p5
+      - p20
+      - p21
+      - p24
+      - p25
+      - p28
+      - p29
+      - p37
+      - p41
+      - p45
+      - p49
+      - p56
+      - p57
+      - p60
+      - p61
+      - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+    mesh: {fileID: 5457011031195527263, guid: edec40a3a268d4282b9b1e33501fd0fe, type: 3}
+    meshName: wfc_module_20
+  - id: p82
+    walkable: 1
+    weight: 1
+    Left:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p4
+      - p20
+      - p23
+      - p24
+      - p27
+      - p28
+      - p31
+      - p36
+      - p40
+      - p44
+      - p48
+      - p56
+      - p59
+      - p60
+      - p63
+      - p76
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p6
+      - p21
+      - p22
+      - p25
+      - p26
+      - p29
+      - p30
+      - p38
+      - p42
+      - p46
+      - p50
+      - p57
+      - p58
+      - p61
+      - p62
+      - p77
+      - p78
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p7
+      - p22
+      - p23
+      - p26
+      - p27
+      - p30
+      - p31
+      - p39
+      - p43
+      - p47
+      - p51
+      - p58
+      - p59
+      - p62
+      - p63
+      - p78
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p5
+      - p20
+      - p21
+      - p24
+      - p25
+      - p28
+      - p29
+      - p37
+      - p41
+      - p45
+      - p49
+      - p56
+      - p57
+      - p60
+      - p61
+      - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+    mesh: {fileID: 5457011031195527263, guid: edec40a3a268d4282b9b1e33501fd0fe, type: 3}
+    meshName: wfc_module_20
+  - id: p83
+    walkable: 1
+    weight: 1
+    Left:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p4
+      - p20
+      - p23
+      - p24
+      - p27
+      - p28
+      - p31
+      - p36
+      - p40
+      - p44
+      - p48
+      - p56
+      - p59
+      - p60
+      - p63
+      - p76
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Right:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p6
+      - p21
+      - p22
+      - p25
+      - p26
+      - p29
+      - p30
+      - p38
+      - p42
+      - p46
+      - p50
+      - p57
+      - p58
+      - p61
+      - p62
+      - p77
+      - p78
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Forward:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p7
+      - p22
+      - p23
+      - p26
+      - p27
+      - p30
+      - p31
+      - p39
+      - p43
+      - p47
+      - p51
+      - p58
+      - p59
+      - p62
+      - p63
+      - p78
+      - p79
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    Back:
+      walkable: 0
+      connector: 0
+      validNeighbours:
+      - p0
+      - p1
+      - p2
+      - p3
+      - p5
+      - p20
+      - p21
+      - p24
+      - p25
+      - p28
+      - p29
+      - p37
+      - p41
+      - p45
+      - p49
+      - p56
+      - p57
+      - p60
+      - p61
+      - p76
+      - p77
+      - p80
+      - p81
+      - p82
+      - p83
+      symmetric: 1
+      flipped: 0
+    rotation: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    mesh: {fileID: 5457011031195527263, guid: edec40a3a268d4282b9b1e33501fd0fe, type: 3}
+    meshName: wfc_module_20
+  - id: 
     walkable: 0
     weight: 1
     Left:
@@ -8830,4 +7870,5 @@ MonoBehaviour:
       flipped: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
     mesh: {fileID: 0}
+    meshName: -1
   prototypeDataFile: {fileID: 4900000, guid: b0f9537804d681e42b6f27dcb10deefe, type: 3}

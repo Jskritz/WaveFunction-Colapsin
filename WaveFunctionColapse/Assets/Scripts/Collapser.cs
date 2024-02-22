@@ -12,8 +12,8 @@ public class Collapser : MonoBehaviour
     public List<List<GameObject>> _modules = new List<List<GameObject>>();
     
     static Random _rnd = new Random();
-
-    public WaveSettings settings;
+    
+    private WaveSettings settings;
 
     public List<List<GameObject>> GetModules(){
         return _modules;
@@ -66,7 +66,6 @@ public class Collapser : MonoBehaviour
 
     private void ClearWave()
     {
-        _modules = new List<List<GameObject>>();
         foreach (var row in _modules)
         {
             foreach (var oldModule in row)
