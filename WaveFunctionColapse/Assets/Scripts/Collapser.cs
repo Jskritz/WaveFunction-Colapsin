@@ -31,6 +31,12 @@ public class Collapser : MonoBehaviour
     {
         
     }
+
+    public void collapsevisually()
+    {
+        
+        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.5f, settings.speed);
+    }
     
     // Initialise the wave populating each cell with an empty module
     public void BuildEmptyWave()
@@ -113,7 +119,7 @@ public class Collapser : MonoBehaviour
                     continue;
                 }
 
-                var lowestEnt = lowest[-1].GetComponent<Module>().Entropy;
+                var lowestEnt = lowest.Last().GetComponent<Module>().Entropy;
                 if (m_module.Entropy < lowestEnt)
                 {
                     lowest.Clear();
@@ -248,7 +254,8 @@ public class Collapser : MonoBehaviour
 
             if (GUILayout.Button("Do it!"))
             {
-                linkedObject.Collapse();
+                //linkedObject.Collapse();
+                linkedObject.collapsevisually();
             }
 
             if (GUILayout.Button("Iterate"))
