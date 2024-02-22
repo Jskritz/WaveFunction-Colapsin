@@ -9,9 +9,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -34,7 +34,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -57,7 +61,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -80,7 +88,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -103,7 +115,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -116,9 +132,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -141,7 +157,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -164,7 +184,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -187,7 +211,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -210,7 +238,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -223,9 +255,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -248,7 +280,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -271,7 +307,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -294,7 +334,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -317,7 +361,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -330,9 +378,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -355,7 +403,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -378,7 +430,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -401,7 +457,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -424,7 +484,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -437,9 +501,9 @@
             "posY": "2",
             "negY": "2f",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -494,7 +558,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p4",
@@ -515,9 +583,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -580,7 +648,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -593,9 +665,9 @@
             "posY": "2f",
             "negY": "2",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -618,7 +690,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p6",
@@ -671,9 +747,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -704,7 +780,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p7",
@@ -749,9 +829,9 @@
             "posY": "1s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -828,9 +908,9 @@
             "posY": "1s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -907,9 +987,9 @@
             "posY": "3f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -986,9 +1066,9 @@
             "posY": "3",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1065,9 +1145,9 @@
             "posY": "1s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1144,9 +1224,9 @@
             "posY": "1s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -1223,9 +1303,9 @@
             "posY": "4f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -1302,9 +1382,9 @@
             "posY": "4",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1381,9 +1461,9 @@
             "posY": "1s",
             "negY": "2f",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1460,9 +1540,9 @@
             "posY": "1s",
             "negY": "2",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -1539,9 +1619,9 @@
             "posY": "2f",
             "negY": "1s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -1618,9 +1698,9 @@
             "posY": "2",
             "negY": "1s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1697,9 +1777,9 @@
             "posY": "4",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -1738,7 +1818,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -1761,7 +1845,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -1774,9 +1862,9 @@
             "posY": "4f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -1799,7 +1887,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p13",
@@ -1838,7 +1930,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -1851,9 +1947,9 @@
             "posY": "0s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -1876,7 +1972,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -1899,7 +1999,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p14",
@@ -1928,9 +2032,9 @@
             "posY": "0s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -1961,7 +2065,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -1984,7 +2092,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p15",
@@ -2005,9 +2117,9 @@
             "posY": "3",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -2046,7 +2158,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2069,7 +2185,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -2082,9 +2202,9 @@
             "posY": "3f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2107,7 +2227,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p9",
@@ -2146,7 +2270,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -2159,9 +2287,9 @@
             "posY": "0s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2184,7 +2312,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2207,7 +2339,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p10",
@@ -2236,9 +2372,9 @@
             "posY": "0s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -2269,7 +2405,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2292,7 +2432,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p11",
@@ -2313,9 +2457,9 @@
             "posY": "2",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -2354,7 +2498,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2377,7 +2525,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -2390,9 +2542,9 @@
             "posY": "2f",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2415,7 +2567,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p6",
@@ -2454,7 +2610,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -2467,9 +2627,9 @@
             "posY": "0s",
             "negY": "2",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2492,7 +2652,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2515,7 +2679,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p7",
@@ -2544,9 +2712,9 @@
             "posY": "0s",
             "negY": "2f",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -2577,7 +2745,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -2600,7 +2772,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p4",
@@ -2621,9 +2797,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -2732,9 +2908,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -2843,9 +3019,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -2954,9 +3130,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3065,9 +3241,9 @@
             "posY": "3",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3122,7 +3298,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p11",
@@ -3143,9 +3323,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -3208,7 +3388,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -3221,9 +3405,9 @@
             "posY": "3f",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -3246,7 +3430,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p9",
@@ -3299,9 +3487,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -3332,7 +3520,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p10",
@@ -3377,9 +3569,9 @@
             "posY": "4",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3434,7 +3626,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p15",
@@ -3455,9 +3651,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -3520,7 +3716,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -3533,9 +3733,9 @@
             "posY": "4f",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -3558,7 +3758,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p13",
@@ -3611,9 +3815,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -3644,7 +3848,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p14",
@@ -3689,9 +3897,9 @@
             "posY": "3",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3746,7 +3954,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p15",
@@ -3767,9 +3979,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -3832,7 +4044,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -3845,9 +4061,9 @@
             "posY": "4f",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -3870,7 +4086,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p13",
@@ -3923,9 +4143,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -3956,7 +4176,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p14",
@@ -4001,9 +4225,9 @@
             "posY": "4",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -4058,7 +4282,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p4",
@@ -4079,9 +4307,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -4144,7 +4372,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -4157,9 +4389,9 @@
             "posY": "2f",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4182,7 +4414,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p6",
@@ -4235,9 +4471,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -4268,7 +4504,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p7",
@@ -4313,9 +4553,9 @@
             "posY": "2",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -4371,9 +4611,9 @@
             "posY": "1s",
             "negY": "5s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -4429,9 +4669,9 @@
             "posY": "3f",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p52"
@@ -4487,9 +4727,9 @@
             "posY": "5s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -4545,9 +4785,9 @@
             "posY": "3",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -4586,7 +4826,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -4609,7 +4853,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -4622,9 +4870,9 @@
             "posY": "4f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4647,7 +4895,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p13",
@@ -4686,7 +4938,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -4699,9 +4955,9 @@
             "posY": "0s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4724,7 +4980,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -4747,7 +5007,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p14",
@@ -4776,9 +5040,9 @@
             "posY": "0s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -4809,7 +5073,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -4832,7 +5100,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p15",
@@ -4853,9 +5125,9 @@
             "posY": "2",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -4894,7 +5166,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -4917,7 +5193,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -4930,9 +5210,9 @@
             "posY": "3f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4955,7 +5235,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p9",
@@ -4994,7 +5278,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -5007,9 +5295,9 @@
             "posY": "0s",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -5032,7 +5320,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -5055,7 +5347,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p10",
@@ -5084,9 +5380,9 @@
             "posY": "0s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -5117,7 +5413,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -5140,7 +5440,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p11",
@@ -5161,9 +5465,9 @@
             "posY": "1s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5240,9 +5544,9 @@
             "posY": "1s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -5319,9 +5623,9 @@
             "posY": "3f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -5398,9 +5702,9 @@
             "posY": "4",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5477,9 +5781,9 @@
             "posY": "1s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5556,9 +5860,9 @@
             "posY": "1s",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -5635,9 +5939,9 @@
             "posY": "4f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -5714,9 +6018,9 @@
             "posY": "2",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5793,9 +6097,9 @@
             "posY": "1s",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5872,9 +6176,9 @@
             "posY": "1s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -5951,9 +6255,9 @@
             "posY": "2f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -6030,9 +6334,9 @@
             "posY": "3",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -6109,9 +6413,9 @@
             "posY": "4",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -6150,7 +6454,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -6173,7 +6481,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -6186,9 +6498,9 @@
             "posY": "2f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6211,7 +6523,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p6",
@@ -6250,7 +6566,11 @@
                     "p62",
                     "p63",
                     "p78",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
@@ -6263,9 +6583,9 @@
             "posY": "0s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6288,7 +6608,11 @@
                     "p60",
                     "p63",
                     "p76",
-                    "p79"
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -6311,7 +6635,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p7",
@@ -6340,9 +6668,9 @@
             "posY": "0s",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -6373,7 +6701,11 @@
                     "p60",
                     "p61",
                     "p76",
-                    "p77"
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p0",
@@ -6396,7 +6728,11 @@
                     "p61",
                     "p62",
                     "p77",
-                    "p78"
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ],
                 [
                     "p4",
@@ -6405,6 +6741,498 @@
                     "p52",
                     "p60",
                     "p71"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p80",
+            "mesh_name": "wfc_module_20",
+            "mesh_rotation": 0,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "weight": 1.0,
+            "constrain_to": "",
+            "constrain_from": "",
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p4",
+                    "p20",
+                    "p23",
+                    "p24",
+                    "p27",
+                    "p28",
+                    "p31",
+                    "p36",
+                    "p40",
+                    "p44",
+                    "p48",
+                    "p56",
+                    "p59",
+                    "p60",
+                    "p63",
+                    "p76",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p5",
+                    "p20",
+                    "p21",
+                    "p24",
+                    "p25",
+                    "p28",
+                    "p29",
+                    "p37",
+                    "p41",
+                    "p45",
+                    "p49",
+                    "p56",
+                    "p57",
+                    "p60",
+                    "p61",
+                    "p76",
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p6",
+                    "p21",
+                    "p22",
+                    "p25",
+                    "p26",
+                    "p29",
+                    "p30",
+                    "p38",
+                    "p42",
+                    "p46",
+                    "p50",
+                    "p57",
+                    "p58",
+                    "p61",
+                    "p62",
+                    "p77",
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p7",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p27",
+                    "p30",
+                    "p31",
+                    "p39",
+                    "p43",
+                    "p47",
+                    "p51",
+                    "p58",
+                    "p59",
+                    "p62",
+                    "p63",
+                    "p78",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p81",
+            "mesh_name": "wfc_module_20",
+            "mesh_rotation": 1,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "weight": 1.0,
+            "constrain_to": "",
+            "constrain_from": "",
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p4",
+                    "p20",
+                    "p23",
+                    "p24",
+                    "p27",
+                    "p28",
+                    "p31",
+                    "p36",
+                    "p40",
+                    "p44",
+                    "p48",
+                    "p56",
+                    "p59",
+                    "p60",
+                    "p63",
+                    "p76",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p5",
+                    "p20",
+                    "p21",
+                    "p24",
+                    "p25",
+                    "p28",
+                    "p29",
+                    "p37",
+                    "p41",
+                    "p45",
+                    "p49",
+                    "p56",
+                    "p57",
+                    "p60",
+                    "p61",
+                    "p76",
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p6",
+                    "p21",
+                    "p22",
+                    "p25",
+                    "p26",
+                    "p29",
+                    "p30",
+                    "p38",
+                    "p42",
+                    "p46",
+                    "p50",
+                    "p57",
+                    "p58",
+                    "p61",
+                    "p62",
+                    "p77",
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p7",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p27",
+                    "p30",
+                    "p31",
+                    "p39",
+                    "p43",
+                    "p47",
+                    "p51",
+                    "p58",
+                    "p59",
+                    "p62",
+                    "p63",
+                    "p78",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p82",
+            "mesh_name": "wfc_module_20",
+            "mesh_rotation": 2,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "weight": 1.0,
+            "constrain_to": "",
+            "constrain_from": "",
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p4",
+                    "p20",
+                    "p23",
+                    "p24",
+                    "p27",
+                    "p28",
+                    "p31",
+                    "p36",
+                    "p40",
+                    "p44",
+                    "p48",
+                    "p56",
+                    "p59",
+                    "p60",
+                    "p63",
+                    "p76",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p5",
+                    "p20",
+                    "p21",
+                    "p24",
+                    "p25",
+                    "p28",
+                    "p29",
+                    "p37",
+                    "p41",
+                    "p45",
+                    "p49",
+                    "p56",
+                    "p57",
+                    "p60",
+                    "p61",
+                    "p76",
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p6",
+                    "p21",
+                    "p22",
+                    "p25",
+                    "p26",
+                    "p29",
+                    "p30",
+                    "p38",
+                    "p42",
+                    "p46",
+                    "p50",
+                    "p57",
+                    "p58",
+                    "p61",
+                    "p62",
+                    "p77",
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p7",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p27",
+                    "p30",
+                    "p31",
+                    "p39",
+                    "p43",
+                    "p47",
+                    "p51",
+                    "p58",
+                    "p59",
+                    "p62",
+                    "p63",
+                    "p78",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ]
+            ]
+        },
+        {
+            "prototype_name": "p83",
+            "mesh_name": "wfc_module_20",
+            "mesh_rotation": 3,
+            "posX": "0s",
+            "negX": "0s",
+            "posY": "0s",
+            "negY": "0s",
+            "walkable": true,
+            "weight": 1.0,
+            "constrain_to": "",
+            "constrain_from": "",
+            "valid_neighbours": [
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p4",
+                    "p20",
+                    "p23",
+                    "p24",
+                    "p27",
+                    "p28",
+                    "p31",
+                    "p36",
+                    "p40",
+                    "p44",
+                    "p48",
+                    "p56",
+                    "p59",
+                    "p60",
+                    "p63",
+                    "p76",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p5",
+                    "p20",
+                    "p21",
+                    "p24",
+                    "p25",
+                    "p28",
+                    "p29",
+                    "p37",
+                    "p41",
+                    "p45",
+                    "p49",
+                    "p56",
+                    "p57",
+                    "p60",
+                    "p61",
+                    "p76",
+                    "p77",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p6",
+                    "p21",
+                    "p22",
+                    "p25",
+                    "p26",
+                    "p29",
+                    "p30",
+                    "p38",
+                    "p42",
+                    "p46",
+                    "p50",
+                    "p57",
+                    "p58",
+                    "p61",
+                    "p62",
+                    "p77",
+                    "p78",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
+                ],
+                [
+                    "p0",
+                    "p1",
+                    "p2",
+                    "p3",
+                    "p7",
+                    "p22",
+                    "p23",
+                    "p26",
+                    "p27",
+                    "p30",
+                    "p31",
+                    "p39",
+                    "p43",
+                    "p47",
+                    "p51",
+                    "p58",
+                    "p59",
+                    "p62",
+                    "p63",
+                    "p78",
+                    "p79",
+                    "p80",
+                    "p81",
+                    "p82",
+                    "p83"
                 ]
             ]
         },
