@@ -9,11 +9,15 @@ using Random = System.Random;
 public class Collapser : MonoBehaviour
 {
     public GameObject module;
-    private List<List<GameObject>> _modules = new List<List<GameObject>>();
+    public List<List<GameObject>> _modules = new List<List<GameObject>>();
     
     static Random _rnd = new Random();
 
     private WaveSettings settings;
+
+    public List<List<GameObject>> GetModules(){
+        return _modules;
+    }
 
 // Start is called before the first frame update
     void Start()

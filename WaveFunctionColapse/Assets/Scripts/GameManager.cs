@@ -25,13 +25,15 @@ public class GameManager : MonoBehaviour
     IEnumerator StartWalk(){
         yield return new WaitForSeconds(1.0f);
         walker = GetComponent<RandomWalker>();
-        walkGrid = collapser.getGrid();
+        walkGrid = collapser.GetModules();
         Debug.Log("Size of grid :"+walkGrid.Count);
         walker.setGizmoGrid(walkGrid);
         Debug.Log("Starting Walk");
         walker.RandomWalk();
         
     }
+
+    
 
     // Update is called once per frame
     void Update()
