@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using Unity.Collections;
+using Unity.EditorCoroutines.Editor;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Vector2 = UnityEngine.Vector2;
@@ -16,6 +18,7 @@ struct stepOnGrid{
 
 public class RandomWalker :MonoBehaviour
 {
+    public Collapser collapser;
     private List<List<GameObject>> gizmoGrid;
     private List<Vector2> walked = new List<Vector2>();
 
@@ -30,7 +33,7 @@ public class RandomWalker :MonoBehaviour
         
     }
     public void RandomWalk(){
-        PaintTargets();
+        gizmoGrid = collapser._modules;
         int gridSize = gizmoGrid.Count;
         Vector2 currentPos = start;
         Vector2 currentTarget=waypoints[0];
@@ -77,7 +80,7 @@ public class RandomWalker :MonoBehaviour
             // count++;
         }
         Debug.Log("walked this many tiles: "+walked.Count);
-        StartCoroutine(DoTheWalk());
+        //StartCoroutine(DoTheWalk());
     }
 
     private void PaintTargets()
@@ -107,6 +110,7 @@ public class RandomWalker :MonoBehaviour
     }
 
     IEnumerator DoTheWalk(){
+        PaintTargets();
         for(int step=0;step<walked.Count;step++){
             GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
             slot.GetComponent<Module>().SetColor(Color.red);
@@ -201,5 +205,28 @@ public class RandomWalker :MonoBehaviour
             }
         }
         return possible;
+    }
+
+    [CustomEditor(typeof(RandomWalker))]
+    public class RandomWalkEditor : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            DrawDefaultInspector();
+
+            var linkedObject = (RandomWalker)target;
+
+            if (GUILayout.Button("Make Random Walk"))
+            {
+                linkedObject.RandomWalk();
+            }
+
+            if (GUILayout.Button("Visualize Random Walk"))
+            {
+                EditorCoroutineUtility.StartCoroutine(linkedObject.DoTheWalk(), this);
+                //linkedObject.DoTheWalk();
+            }
+
+        }
     }
 }

@@ -13,6 +13,8 @@ public class Module : MonoBehaviour
 
     [CanBeNull] public Prototype SelectedPrototype;
 
+    private Renderer myRenderer;
+
     //[HideInInspector]
     public bool isCollapsed = false;
 
@@ -41,6 +43,7 @@ public class Module : MonoBehaviour
 
     private void Awake()
     {
+        myRenderer = this.gameObject.GetComponent<Renderer>();
         GetPrototypes();
     }
 
@@ -109,6 +112,10 @@ public class Module : MonoBehaviour
         PotentialPrototypes = newPotentialPrototypes;
 
         return true;
+    }
+
+    public void SetColor(Color color){
+        myRenderer.material.color=color;
     }
     
 }
