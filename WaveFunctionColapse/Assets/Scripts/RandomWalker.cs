@@ -111,12 +111,12 @@ public class RandomWalker :MonoBehaviour
         return closest;
     }
 
-    IEnumerator VisualizeTheWalk(){
+    public void VisualizeTheWalk(){
         PaintTargets();
         for(int step=0;step<walked.Count;step++){
             GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];
             slot.GetComponent<Module>().SetColor(Color.red);
-            yield return new WaitForSeconds(1.0f);
+            //yield return new WaitForSeconds(1.0f);
             slot.GetComponent<Module>().SetColor(Color.green);
         }
     }
@@ -229,14 +229,14 @@ public class RandomWalker :MonoBehaviour
 
             if (GUILayout.Button("Visualize Random Walk"))
             {
-                EditorCoroutineUtility.StartCoroutine(linkedObject.VisualizeTheWalk(), this);
+                //EditorCoroutineUtility.StartCoroutine(linkedObject.VisualizeTheWalk(), this);
                 //linkedObject.DoTheWalk();
             }
 
         }
     }
 
-    private void DoTheWalk()
+    public void DoTheWalk()
     {
         for(int step=0;step<walked.Count;step++){
             GameObject slot = gizmoGrid[(int)walked[step].x][(int)walked[step].y];

@@ -11,15 +11,26 @@ public class GameManager : MonoBehaviour
 
     private RandomWalker walker;
 
-    public GameObject slot;
+    //public GameObject slot;
     void Awake(){
         
     }
     // Start is called before the first frame update
     void Start()
     {
+        RandomWalker walker= GetComponent<RandomWalker>();
         //GenerateGrid(50);
-        StartCoroutine(StartWalk());
+        Debug.Log("building empty wave");
+        collapser.BuildEmptyWave();
+        Debug.Log("random walking");
+        walker.RandomWalk();
+        walker.VisualizeTheWalk();
+        Debug.Log("apply  walking");
+        walker.DoTheWalk();
+        Debug.Log("collapsing");
+        //collapser.collapsevisually();
+        collapser.Collapse();
+        //StartCoroutine(StartWalk());
     }
 
     IEnumerator StartWalk(){
@@ -41,14 +52,14 @@ public class GameManager : MonoBehaviour
         
     }
 
-    void GenerateGrid(int gridSize){
-        for(int i =0 ; i<gridSize;i++){
-            List<GameObject> line = new List<GameObject>();
-            for(int j =0 ; j<gridSize;j++){
-                GameObject cube = Instantiate(slot, new Vector3(i,0,j), Quaternion.identity);
-                line.Add(cube);
-            }
-            walkGrid.Add(line);
-        }
-    }   
+    // void GenerateGrid(int gridSize){
+    //     for(int i =0 ; i<gridSize;i++){
+    //         List<GameObject> line = new List<GameObject>();
+    //         for(int j =0 ; j<gridSize;j++){
+    //             GameObject cube = Instantiate(slot, new Vector3(i,0,j), Quaternion.identity);
+    //             line.Add(cube);
+    //         }
+    //         walkGrid.Add(line);
+    //     }
+    // }   
 }

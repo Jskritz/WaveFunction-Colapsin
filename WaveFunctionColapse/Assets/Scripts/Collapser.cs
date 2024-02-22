@@ -22,8 +22,9 @@ public class Collapser : MonoBehaviour
 // Start is called before the first frame update
     void Start()
     {
-        if(_modules.Count == 0) BuildEmptyWave();
-        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.5f, settings.speed);
+        //if(_modules.Count == 0) BuildEmptyWave();
+        if(_modules == null) Debug.Log("oh no, i have no modules");
+        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
     }
 
     // Update is called once per frame
@@ -35,13 +36,14 @@ public class Collapser : MonoBehaviour
     public void collapsevisually()
     {
         
-        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.5f, settings.speed);
+        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
     }
     
     // Initialise the wave populating each cell with an empty module
     public void BuildEmptyWave()
     {
-        if (_modules.Count != 0) ClearWave();
+        if(_modules == null)ClearWave();
+        else if (_modules.Count != 0) ClearWave();
         settings = GetComponent<WaveSettings>();
         var pos = transform.position;
         for (int x = 0; x < settings.x / settings.scale; x++)
@@ -64,6 +66,7 @@ public class Collapser : MonoBehaviour
 
     private void ClearWave()
     {
+        _modules = new List<List<GameObject>>();
         foreach (var row in _modules)
         {
             foreach (var oldModule in row)
@@ -80,7 +83,7 @@ public class Collapser : MonoBehaviour
         }
     }
 
-    private void Collapse()
+    public void Collapse()
     {
         var count = 0;
         while (!IsCollapsed())
