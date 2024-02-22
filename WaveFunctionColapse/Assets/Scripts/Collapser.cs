@@ -70,7 +70,7 @@ public class Collapser : MonoBehaviour
         }
     }
 
-    private void ClearWave()
+    public void ClearWave()
     {
         foreach (var row in _moduleObjects)
         {

@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
         walker= GetComponent<RandomWalker>();
         Debug.Log("walker is "+walker==null?true:false);
         //GenerateGrid(50);
+        collapser.ClearWave();
         Debug.Log("building empty wave");
         collapser.BuildEmptyWave();
         Debug.Log("random walking");
