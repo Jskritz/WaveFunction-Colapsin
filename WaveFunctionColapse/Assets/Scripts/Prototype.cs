@@ -60,6 +60,8 @@ public class Prototype : IEquatable<Prototype>
     [HideInInspector]
     public Mesh mesh;
 
+    public string meshName;
+
     public Prototype(PrototypeDataStruct prototypeData)
     {
         Left = new Face();
@@ -68,8 +70,8 @@ public class Prototype : IEquatable<Prototype>
         Back = new Face();
         id = prototypeData.prototype_name;
 
-        
-        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Tile Set/" + prototypeData.mesh_name + ".fbx");
+        meshName = prototypeData.mesh_name;
+        mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Tile Set/" + meshName + ".fbx");
         
         rotation = Quaternion.Euler(0f, -90 * prototypeData.mesh_rotation, 0f);
 

@@ -17,6 +17,11 @@ public class WaveSettings : MonoBehaviour
     [Min(0.5f)]
     public float scale = 1;
 
+    [Header("Display settings")]
+    [Tooltip("How fast the wave will collapse, for visualisation purposes")]
+    [Range(0.1f,1f)]
+    public float speed = 0.5f;
+    
     private int _numberOfModules;
     
     // Visualising in the editor
