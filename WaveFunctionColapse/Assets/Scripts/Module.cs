@@ -1,11 +1,8 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
-using Random = System.Random;
 
 public class Module : MonoBehaviour
 {
@@ -27,7 +24,6 @@ public class Module : MonoBehaviour
         
     }
 
-    static Random _rnd = new Random();
 
     // Start is called before the first frame update
     void Start()
@@ -54,10 +50,40 @@ public class Module : MonoBehaviour
         PotentialPrototypes = prototypeData.Prototypes;
     }
     
+    public int GetRandomWeightedIndex(List<float> weights)
+    {
+        // Get the total sum of all the weights.
+        float weightSum = weights.Sum();
+        // Step through all the possibilities, one by one, checking to see if each one is selected.
+        int index = 0;
+        int lastIndex = weights.Count - 1;
+        while (index < lastIndex)
+        {
+            // Do a probability check with a likelihood of weights[index] / weightSum.
+            if (Random.Range(0, weightSum) < weights[index])
+            {
+                return index;
+            }
+     
+            // Remove the last item from the sum of total untested weights and try again.
+            weightSum -= weights[index++];
+        }
+     
+        // No other item was selected, so return very last index.
+        return index;
+    }
+
+    
     public void Collapse()
     { 
         if (PotentialPrototypes.Count == 0) GetPrototypes();
-        var choice = _rnd.Next(PotentialPrototypes.Count);
+        var weights = new List<float>();
+        foreach (var prototype in PotentialPrototypes)
+        {
+            weights.Add(prototype.weight);
+        }
+
+        var choice = GetRandomWeightedIndex(weights);
         SelectedPrototype = PotentialPrototypes[choice];
         PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
         isCollapsed = true;
