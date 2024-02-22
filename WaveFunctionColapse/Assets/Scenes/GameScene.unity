@@ -166,10 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 102f241387e8eb34cb51a0f04d270c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 10
-  z: 10
+  x: 30
+  z: 30
   scale: 1
-  speed: 0.5
+  speed: 0.001
   useWalker: 1
 --- !u!4 &719287632
 Transform:

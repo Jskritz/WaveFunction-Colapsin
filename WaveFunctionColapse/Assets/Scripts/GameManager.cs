@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     private void InitialScene()
     {
         Debug.Log("walker is "+(walker??null?true:false));
-        List<List<GameObject>> modules=collapser._modules;
+        List<List<GameObject>> modules=collapser._moduleObjects;
         GameObject playerPos = modules[(int)walker.start.x][(int)walker.start.y];
         player.SetPosition(playerPos.transform.position+Vector3.up*10);
         List<Vector2> waypoints = walker.waypoints;

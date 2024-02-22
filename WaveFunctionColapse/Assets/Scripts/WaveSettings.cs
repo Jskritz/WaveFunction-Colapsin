@@ -19,8 +19,8 @@ public class WaveSettings : MonoBehaviour
 
     [Header("Display settings")]
     [Tooltip("How fast the wave will collapse, for visualisation purposes")]
-    [Range(0.001f,0.2f)]
-    public float speed = 0.5f;
+    [Range(0.001f,0.1f)]
+    public float speed = 0.001f;
 
     [Header("Walker settings")] public bool useWalker = true;
     
