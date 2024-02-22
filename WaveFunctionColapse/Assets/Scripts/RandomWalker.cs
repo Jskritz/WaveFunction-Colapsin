@@ -33,7 +33,7 @@ public class RandomWalker :MonoBehaviour
         
     }
     public void RandomWalk(){
-        gizmoGrid = collapser._modules;
+        gizmoGrid = collapser._moduleObjects;
         int gridSize = gizmoGrid.Count;
         Vector2 currentPos = start;
         walked.Add(currentPos);

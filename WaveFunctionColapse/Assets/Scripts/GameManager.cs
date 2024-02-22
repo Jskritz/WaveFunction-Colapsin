@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("apply  walking");
         walker.DoTheWalk();
         Debug.Log("collapsing");
-        collapser.collapsevisually();
+        collapser.CollapseVisually();
         //collapser.Collapse();
         //StartCoroutine(StartWalk());
     }

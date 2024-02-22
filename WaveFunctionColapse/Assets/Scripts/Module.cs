@@ -121,20 +121,17 @@ public class Module : MonoBehaviour
                     validNeighbours = prototype.Faces[1].validNeighbours;
                     break;
             }
-            //if(CartProducts.Any(prod => prod.ID == p.ID))
-            //newPotentialPrototypes.Contains(neighbour)
             foreach (var neighbour in neighbourPotentials)
             {
                 if (validNeighbours.Contains(neighbour.id) && newPotentialPrototypes.All(p => prototype.id != p.id))
                 {
-                    //Debug.Log($"added {prototype.id} to the list of potentials");
                     newPotentialPrototypes.Add(prototype);
                 }
             }
 
         }
 
-        if (newPotentialPrototypes == PotentialPrototypes) return false;
+        if (newPotentialPrototypes.Count == PotentialPrototypes.Count) return false;
         PotentialPrototypes = newPotentialPrototypes;
 
         return true;

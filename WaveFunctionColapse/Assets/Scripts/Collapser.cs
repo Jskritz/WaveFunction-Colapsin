@@ -9,21 +9,23 @@ using Random = System.Random;
 public class Collapser : MonoBehaviour
 {
     public GameObject module;
-    public List<List<GameObject>> _modules = new List<List<GameObject>>();
+    public List<List<GameObject>> _moduleObjects = new List<List<GameObject>>();
+    private List<List<Module>> _modules = new List<List<Module>>();
+    
     
     static Random _rnd = new Random();
     
     private WaveSettings settings;
 
     public List<List<GameObject>> GetModules(){
-        return _modules;
+        return _moduleObjects;
     }
 
 // Start is called before the first frame update
     void Start()
     {
-        //if(_modules.Count == 0) BuildEmptyWave();
-        //if(_modules == null) Debug.Log("oh no, i have no modules");
+        //if(_moduleObjects.Count == 0) BuildEmptyWave();
+        //if(_moduleObjects == null) Debug.Log("oh no, i have no modules");
         //if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
     }
 
@@ -33,7 +35,7 @@ public class Collapser : MonoBehaviour
         
     }
 
-    public void collapsevisually()
+    public void CollapseVisually()
     {
         
         if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
@@ -42,31 +44,35 @@ public class Collapser : MonoBehaviour
     // Initialise the wave populating each cell with an empty module
     public void BuildEmptyWave()
     {
-        if(_modules == null)ClearWave();
-        else if (_modules.Count != 0) ClearWave();
+        if(_moduleObjects == null)ClearWave();
+        else if (_moduleObjects.Count != 0) ClearWave();
         settings = GetComponent<WaveSettings>();
         var pos = transform.position;
         for (int x = 0; x < settings.x / settings.scale; x++)
         {
             var xpos = (x + 0.5f) * settings.scale + pos.x;
             var row = new List<GameObject>();
+            var mrow = new List<Module>();
             for (int z = 0; z < settings.z / settings.scale; z++)
             {
                 var zpos = (z + 0.5f) * settings.scale + pos.z;
                 
                 var newModule = Instantiate(module, new Vector3(xpos, (pos.y + 0.5f) * settings.scale, zpos),
                     Quaternion.identity);
-                newModule.GetComponent<Module>().GetPrototypes();
+                var newModuleModule = newModule.GetComponent<Module>();
+                newModuleModule.GetPrototypes();
                 newModule.transform.parent = this.transform;
                 row.Add(newModule);
+                mrow.Add(newModuleModule);
             }
-            _modules.Add(row);
+            _moduleObjects.Add(row);
+            _modules.Add(mrow);
         }
     }
 
     private void ClearWave()
     {
-        foreach (var row in _modules)
+        foreach (var row in _moduleObjects)
         {
             foreach (var oldModule in row)
             {
@@ -78,7 +84,7 @@ public class Collapser : MonoBehaviour
                 
             }
 
-            _modules = new List<List<GameObject>>();
+            _moduleObjects = new List<List<GameObject>>();
         }
     }
 
@@ -89,7 +95,6 @@ public class Collapser : MonoBehaviour
         {
             var time = Time.realtimeSinceStartup;
             Iterate();
-            Debug.Log("Completed one iteration in " + (Time.realtimeSinceStartup - time) + " seconds");
             count++;
             if (count > 1000) break;
         }
@@ -105,14 +110,15 @@ public class Collapser : MonoBehaviour
     private void Iterate()
     {
         #region Collapsing
-        List<GameObject> lowest = new List<GameObject>();
+        List<Module> lowest = new List<Module>();
         List<List<int>> lowestCoords = new List<List<int>>();
+        var time = Time.realtimeSinceStartup;
         // find the modules with the lowest entropy (naively, so very naively)
         for (int z = 0; z < settings.z / settings.scale; z++)
         {
             for (int x = 0; x < settings.x / settings.scale; x++)
             {
-                var m_module = _modules[x][z].GetComponent<Module>();
+                var m_module = _modules[x][z];
                 if (m_module.isCollapsed) continue;
                 if (lowest.Count == 0)
                 {
@@ -121,7 +127,7 @@ public class Collapser : MonoBehaviour
                     continue;
                 }
 
-                var lowestEnt = lowest.Last().GetComponent<Module>().Entropy;
+                var lowestEnt = lowest.Last().Entropy;
                 if (m_module.Entropy < lowestEnt)
                 {
                     lowest.Clear();
@@ -141,8 +147,10 @@ public class Collapser : MonoBehaviour
         var choice = _rnd.Next(lowest.Count);
         var lowestModule = lowest[choice];
         var lowestModuleCoords = lowestCoords[choice];
-        var lowestModuleModule = lowestModule.GetComponent<Module>();
-        lowestModuleModule.Collapse();
+        //Debug.Log("Chose a module to collapse in " + (Time.realtimeSinceStartup - time) + "seconds");
+        time = Time.realtimeSinceStartup;
+        lowestModule.Collapse();
+        //Debug.Log("Collapsed that module in " + (Time.realtimeSinceStartup - time) + "seconds");
         #endregion
         
         #region Propagate
@@ -150,11 +158,13 @@ public class Collapser : MonoBehaviour
         Queue<List<int>> queue = new Queue<List<int>>();
         List<List<int>> history = new List<List<int>>();
         queue.Enqueue(lowestModuleCoords);
+        time = Time.realtimeSinceStartup;
         var count = 0;
         while (queue.Count > 0)
         {
             
             var currCoords = queue.Dequeue();
+            //Debug.Log($"Starting at cell ({currCoords[0]},{currCoords[1]}):");
             foreach (var neighbourDir in GetNeighbours(currCoords))
             {
                 var x = currCoords[0];
@@ -177,26 +187,24 @@ public class Collapser : MonoBehaviour
                 }
                 
                 var neighbour = _modules[x][z];
-                var current = _modules[currCoords[0]][currCoords[1]].GetComponent<Module>();
-                if(neighbour.GetComponent<Module>().Constrain(current.PotentialPrototypes, (int)neighbourDir))
+                var current = _modules[currCoords[0]][currCoords[1]];
+                var innerTime = Time.realtimeSinceStartup;
+                if(neighbour.Constrain(current.PotentialPrototypes, (int)neighbourDir))
                 {
-                    var _outputstr = "";
-                    foreach (var h in history)
-                    {
-                        _outputstr += $"({h[0]},{h[1]}), ";
-                    }
                     if (!history.Any(c => c[0] == x && c[1] == z))
                     {
                         queue.Enqueue(new List<int>(){x, z});
                         history.Add(new List<int>(){x, z});
                     }
                 }
-                
+                //Debug.Log($"Constrained in {Time.realtimeSinceStartup - innerTime} seconds");
             }
 
             count++;
             if (count > 100) break;
         }
+        
+        //Debug.Log("Propagated the collapse in "+ (Time.realtimeSinceStartup - time) + "seconds, visited: " + count + " cells");
         #endregion
     }
     
@@ -204,10 +212,9 @@ public class Collapser : MonoBehaviour
     {
         foreach (var row in _modules)
         {
-            foreach (var moduleObject in row)
+            foreach (var _module in row)
             {
-                var mod = moduleObject.GetComponent<Module>();
-                if (!mod.isCollapsed)
+                if (!_module.isCollapsed)
                 {
                     return false;
                 }
@@ -215,7 +222,7 @@ public class Collapser : MonoBehaviour
         }
         return true;
     }
-
+    
     private List<NeighbourDir> GetNeighbours(List<int> coords)
     {
         var neighbours = new List<NeighbourDir>();
@@ -257,7 +264,7 @@ public class Collapser : MonoBehaviour
             if (GUILayout.Button("Do it!"))
             {
                 //linkedObject.Collapse();
-                linkedObject.collapsevisually();
+                linkedObject.CollapseVisually();
             }
 
             if (GUILayout.Button("Iterate"))
