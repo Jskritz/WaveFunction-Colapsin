@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
 
     private RandomWalker walker;
 
-    public WaveSettings settings;
+    public Character player;
+    public GameObject Coin;
 
     //public GameObject slot;
     void Awake(){
@@ -20,15 +21,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var m_camera = Camera.main;
-        // set the camera to the right place
-        m_camera.transform.position = new Vector3(
-            (float)settings.x / 2,
-            10,
-            
-            (float)settings.z / 2);
-        
-        RandomWalker walker= GetComponent<RandomWalker>();
+        walker= GetComponent<RandomWalker>();
+        Debug.Log("walker is "+walker==null?true:false);
         //GenerateGrid(50);
         Debug.Log("building empty wave");
         collapser.BuildEmptyWave();
@@ -40,7 +34,21 @@ public class GameManager : MonoBehaviour
         Debug.Log("collapsing");
         collapser.CollapseVisually();
         //collapser.Collapse();
-        //StartCoroutine(StartWalk());
+        Debug.Log("positioning player and coins");
+        InitialScene();
+    }
+
+    private void InitialScene()
+    {
+        Debug.Log("walker is "+(walker??null?true:false));
+        List<List<GameObject>> modules=collapser._modules;
+        GameObject playerPos = modules[(int)walker.start.x][(int)walker.start.y];
+        player.SetPosition(playerPos.transform.position+Vector3.up*10);
+        List<Vector2> waypoints = walker.waypoints;
+        for(int i=0;i<waypoints.Count;i++){
+            GameObject coinPos = modules[(int)waypoints[i].x][(int)waypoints[i].y];
+            Instantiate(Coin,coinPos.transform.position+Vector3.up*10,Quaternion.identity);
+        }
     }
 
     IEnumerator StartWalk(){

@@ -88,6 +88,7 @@ public class Module : MonoBehaviour
         PotentialPrototypes = new List<Prototype>() { SelectedPrototype };
         isCollapsed = true;
         GetComponent<MeshFilter>().mesh = SelectedPrototype.mesh;
+        GetComponent<MeshCollider>().sharedMesh = SelectedPrototype.mesh;
         transform.rotation = SelectedPrototype.rotation;
     }
 
