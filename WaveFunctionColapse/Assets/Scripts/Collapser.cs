@@ -13,7 +13,7 @@ public class Collapser : MonoBehaviour
     
     static Random _rnd = new Random();
 
-    private WaveSettings settings;
+    public WaveSettings settings;
 
     public List<List<GameObject>> GetModules(){
         return _modules;
@@ -23,8 +23,8 @@ public class Collapser : MonoBehaviour
     void Start()
     {
         //if(_modules.Count == 0) BuildEmptyWave();
-        if(_modules == null) Debug.Log("oh no, i have no modules");
-        if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
+        //if(_modules == null) Debug.Log("oh no, i have no modules");
+        //if (!IsCollapsed()) InvokeRepeating(nameof(DoIterate), 0.1f, settings.speed);
     }
 
     // Update is called once per frame

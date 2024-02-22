@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     private RandomWalker walker;
 
+    public Camera Camera;
+
     //public GameObject slot;
     void Awake(){
         
@@ -18,6 +20,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // set the camera to the right place
+        Camera.transform.position = new Vector3(
+            collapser.settings.x / 2,
+            10,
+            collapser.settings.z / 2);
+        
         RandomWalker walker= GetComponent<RandomWalker>();
         //GenerateGrid(50);
         Debug.Log("building empty wave");
@@ -28,8 +36,8 @@ public class GameManager : MonoBehaviour
         Debug.Log("apply  walking");
         walker.DoTheWalk();
         Debug.Log("collapsing");
-        //collapser.collapsevisually();
-        collapser.Collapse();
+        collapser.collapsevisually();
+        //collapser.Collapse();
         //StartCoroutine(StartWalk());
     }
 
