@@ -9,9 +9,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -132,9 +132,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -255,9 +255,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -378,9 +378,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -501,9 +501,9 @@
             "posY": "2",
             "negY": "2f",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -583,9 +583,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -665,9 +665,9 @@
             "posY": "2f",
             "negY": "2",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -747,9 +747,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -829,9 +829,9 @@
             "posY": "1s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -908,9 +908,9 @@
             "posY": "1s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -987,9 +987,9 @@
             "posY": "3f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -1066,9 +1066,9 @@
             "posY": "3",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1145,9 +1145,9 @@
             "posY": "1s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1224,9 +1224,9 @@
             "posY": "1s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -1303,9 +1303,9 @@
             "posY": "4f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -1382,9 +1382,9 @@
             "posY": "4",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1461,9 +1461,9 @@
             "posY": "1s",
             "negY": "2f",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1540,9 +1540,9 @@
             "posY": "1s",
             "negY": "2",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -1619,9 +1619,9 @@
             "posY": "2f",
             "negY": "1s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -1698,9 +1698,9 @@
             "posY": "2",
             "negY": "1s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -1777,9 +1777,9 @@
             "posY": "4",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -1862,9 +1862,9 @@
             "posY": "4f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -1947,9 +1947,9 @@
             "posY": "0s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2032,9 +2032,9 @@
             "posY": "0s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -2117,9 +2117,9 @@
             "posY": "3",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -2202,9 +2202,9 @@
             "posY": "3f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2287,9 +2287,9 @@
             "posY": "0s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2372,9 +2372,9 @@
             "posY": "0s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -2457,9 +2457,9 @@
             "posY": "2",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -2542,9 +2542,9 @@
             "posY": "2f",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2627,9 +2627,9 @@
             "posY": "0s",
             "negY": "2",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -2712,9 +2712,9 @@
             "posY": "0s",
             "negY": "2f",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -2797,9 +2797,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -2908,9 +2908,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3019,9 +3019,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3130,9 +3130,9 @@
             "posY": "1s",
             "negY": "1s",
             "walkable": true,
+            "weight": 2.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3241,9 +3241,9 @@
             "posY": "3",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3323,9 +3323,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -3405,9 +3405,9 @@
             "posY": "3f",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -3487,9 +3487,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -3569,9 +3569,9 @@
             "posY": "4",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3651,9 +3651,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -3733,9 +3733,9 @@
             "posY": "4f",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -3815,9 +3815,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -3897,9 +3897,9 @@
             "posY": "3",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -3979,9 +3979,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -4061,9 +4061,9 @@
             "posY": "4f",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4143,9 +4143,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -4225,9 +4225,9 @@
             "posY": "4",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -4307,9 +4307,9 @@
             "posY": "1s",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -4389,9 +4389,9 @@
             "posY": "2f",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4471,9 +4471,9 @@
             "posY": "0s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -4553,9 +4553,9 @@
             "posY": "2",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -4611,9 +4611,9 @@
             "posY": "1s",
             "negY": "5s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -4669,9 +4669,9 @@
             "posY": "3f",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p52"
@@ -4727,9 +4727,9 @@
             "posY": "5s",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -4785,9 +4785,9 @@
             "posY": "3",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -4870,9 +4870,9 @@
             "posY": "4f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -4955,9 +4955,9 @@
             "posY": "0s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -5040,9 +5040,9 @@
             "posY": "0s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -5125,9 +5125,9 @@
             "posY": "2",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -5210,9 +5210,9 @@
             "posY": "3f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -5295,9 +5295,9 @@
             "posY": "0s",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -5380,9 +5380,9 @@
             "posY": "0s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -5465,9 +5465,9 @@
             "posY": "1s",
             "negY": "3f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5544,9 +5544,9 @@
             "posY": "1s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p8",
@@ -5623,9 +5623,9 @@
             "posY": "3f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -5702,9 +5702,9 @@
             "posY": "4",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5781,9 +5781,9 @@
             "posY": "1s",
             "negY": "4f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -5860,9 +5860,9 @@
             "posY": "1s",
             "negY": "2",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p12",
@@ -5939,9 +5939,9 @@
             "posY": "4f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p7",
@@ -6018,9 +6018,9 @@
             "posY": "2",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -6097,9 +6097,9 @@
             "posY": "1s",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -6176,9 +6176,9 @@
             "posY": "1s",
             "negY": "3",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -6255,9 +6255,9 @@
             "posY": "2f",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p11",
@@ -6334,9 +6334,9 @@
             "posY": "3",
             "negY": "1s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p6",
@@ -6413,9 +6413,9 @@
             "posY": "4",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p5",
@@ -6498,9 +6498,9 @@
             "posY": "2f",
             "negY": "0s",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6583,9 +6583,9 @@
             "posY": "0s",
             "negY": "4",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6668,9 +6668,9 @@
             "posY": "0s",
             "negY": "2f",
             "walkable": false,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p15",
@@ -6753,9 +6753,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6876,9 +6876,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -6999,9 +6999,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
@@ -7122,9 +7122,9 @@
             "posY": "0s",
             "negY": "0s",
             "walkable": true,
+            "weight": 1.0,
             "constrain_to": "",
             "constrain_from": "",
-            "weight": 1,
             "valid_neighbours": [
                 [
                     "p0",
