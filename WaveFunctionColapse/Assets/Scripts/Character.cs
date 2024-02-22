@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Character : MonoBehaviour {
-	public float speed = 25.0F;
-	public float jumpSpeed = 8.0F; 
-	public float gravity = 20.0F;
+	public float speed = 2.50F;
+	public float jumpSpeed = 0.80F; 
+	public float gravity = 10.0F;
 	private Vector3 moveDirection = Vector3.zero;
 	private float turner;
 	private float looker;
@@ -16,6 +16,9 @@ public class Character : MonoBehaviour {
 		
 	}
 	
+	public void SetPosition(Vector3 position){
+		transform.position = position;
+	}
 	// Update is called once per frame
 	void Update () {
 		CharacterController controller = GetComponent<CharacterController>();
